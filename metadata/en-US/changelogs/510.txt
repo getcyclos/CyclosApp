@@ -1,0 +1,3 @@
+Localisation:
+- update French translation thanks to Amadeous (#62)
+- update Dutch translation thanks to albertheres (#61)

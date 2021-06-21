@@ -1,0 +1,6 @@
+CyclosApp è un'applicazione mobile per la registrazione e la visualizzazione dei tuoi allenamenti. Corsa, ciclismo o escursionismo, CyclosApp ti mostrerà le informazioni più importanti, con grafici e statistiche dettagliate. È open-source e completamente privo di pubblicità.
+
+Caratteristiche:
+* Tieni traccia degli allenamenti. Scegli il tipo di sport che vuoi monitorare e inizia a correre, andare in bicicletta o fare escursioni. Puoi vedere le informazioni generali proprio sotto la mappa nella schermata di tracciamento.
+* Visualizza i tuoi allenamenti. Visualizza le informazioni generali come la data, l'ora, la durata, la distanza, la velocità e il ritmo. Visualizza il tuo percorso sulla mappa. Migliora il tuo livello di prestazione a partire dal diagramma di velocità.
+* Open-Source. Non contiene pubblicità né tracciamento, il codice sorgente è aperto e compreso sotto licenza GPLv3.

@@ -1,0 +1,5 @@
+- added activity Skateboarding
+- recover lost workouts
+- fixed various recording stability issues
+
+please see the project repository on Codeberg for more changes

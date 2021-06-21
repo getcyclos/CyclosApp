@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+  ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  --><resources>
+    <string name="app_name">CyclosApp</string>
+    <string name="workout_add">Hozzáadás</string>
+    <string name="stop">Leállítás</string>
+    <string name="delete">Törlés</string>
+    <string name="exporting">Exportálás</string>
+    <string name="error">Hiba</string>
+    <string name="errorGpxExportFailed">A GPX exportálása nem sikerült.</string>
+    <string name="errorExportFailed">Az adatok exportálása nem sikerült.</string>
+    <string name="errorImportFailed">Az adatok importálása nem sikerült.</string>
+    <string name="shareFile">Fájl megosztása</string>
+    <string name="initialising">Előkészítés</string>
+    <string name="preferences">Beállítások</string>
+    <string name="workouts">Edzések</string>
+    <string name="locationData">Hely adatai</string>
+    <string name="converting">Átalakítás</string>
+    <string name="finished">Befejeződött</string>
+    <string name="loadingFile">Fájl betöltése</string>
+    <string name="chooseBackupFile">Biztonsági mentés fájl kiválasztása</string>
+    <string name="importBackupMessage">FIGYELMEZTETÉS: Az alkalmazásban található összes meglévő adat törölve lesz. Ha nem szeretné elveszíteni azokat, akkor először készítsen egy másik biztonsági mentést. Biztosan vissza szeretné állítani ezt a biztonsági mentést?</string>
+    <string name="restore">Visszaállítás</string>
+    <string name="backup">Biztonsági mentés</string>
+    <string name="pref_ringtone_silent">Csendes</string>
+    <string name="setPreferencesTitle">Beállítások megadása</string>
+    <string name="setPreferencesMessage">Beállíthatja az előnyben részesített mértékegységrendszert és a súlyát a beállításokban.</string>
+    <string name="timeMinuteSingular">Perc</string>
+    <string name="timeMinutePlural">Perc</string>
+    <string name="timeMinuteShort">p</string>
+    <string name="timeHourSingular">Óra</string>
+    <string name="timeHourPlural">Óra</string>
+    <string name="timeHourShort">ó</string>
+    <string name="timeSecondsShort">mp</string>
+    <string name="and">és</string>
+    <string name="errorEnterValidNumber">Adjon meg egy érvényes számot</string>
+    <string name="errorWorkoutAddFuture">Az edzés nem lehet a jövőben</string>
+    <string name="errorEnterValidDuration">Adjon meg egy érvényes időtartamot</string>
+    <string name="announcementGPSStatus">GPS állapota</string>
+    <string name="voiceAnnouncementsTitle">Hangos közlemények</string>
+    <string name="pref_voice_announcements_summary">Hangutasítások beállítása, amely tájékoztatást nyújt az edzés során</string>
+    <string name="pref_announcements_config_title">Közlemények aktiválója</string>
+    <string name="pref_announcements_config_summary">A hangos közlemények közti idő és távolság kiválasztása</string>
+    <string name="pref_announcements_content">A közlemények tartalma</string>
+    <string name="gpsLost">A GPS-jel elveszett</string>
+    <string name="gpsFound">A GPS-jel megjött</string>
+    <string name="workoutTime">Idő</string>
+    <string name="workoutDate">Dátum</string>
+    <string name="workoutDuration">Időtartam</string>
+    <string name="workoutPauseDuration">Szünet időtartama</string>
+    <string name="workoutStartTime">Kezdési idő</string>
+    <string name="workoutEndTime">Befejezési idő</string>
+    <string name="workoutDistance">Távolság</string>
+    <string name="workoutPace">Tempó</string>
+    <string name="workoutRoute">Útvonal</string>
+    <string name="workoutSpeed">Sebesség</string>
+    <string name="workoutAvgSpeedShort">Átlagsebesség</string>
+    <string name="workoutAvgSpeedLong">Átlagsebesség</string>
+    <string name="workoutTopSpeed">Legnagyobb sebesség</string>
+    <string name="workoutBurnedEnergy">Elégetett energia</string>
+    <string name="workoutTotalEnergy">Összes energia</string>
+    <string name="workoutEnergyConsumption">Energiafogyasztás</string>
+    <string name="workoutEdited">Ez az edzés szerkesztve lett.</string>
+    <string name="uploading">Feltöltés</string>
+    <string name="enterVerificationCode">Hitelesítési kód megadása</string>
+    <string name="authenticationFailed">A hitelesítés sikertelen.</string>
+    <string name="upload">Feltöltés</string>
+    <string name="uploadSuccessful">A feltöltés sikeres</string>
+    <string name="uploadFailed">A feltöltés sikertelen</string>
+    <string name="uploadFailedOsmNotAuthorized">Nincs felhatalmazva, próbálja újra</string>
+    <string name="workoutAscent">Emelkedés</string>
+    <string name="workoutDescent">Ereszkedés</string>
+    <string name="height">Magasság</string>
+    <string name="workoutTypeRunning">Futás</string>
+    <string name="workoutTypeWalking">Séta</string>
+    <string name="workoutTypeJogging">Kocogás</string>
+    <string name="workoutTypeCycling">Kerékpározás</string>
+    <string name="workoutTypeHiking">Túrázás</string>
+    <string name="workoutTypeOther">Egyéb</string>
+    <string name="workoutTypeUnknown">Ismeretlen</string>
+    <string name="type">Típus</string>
+    <string name="enterWorkout">Edzés megadása</string>
+    <string name="setDuration">Időtartam beállítása</string>
+    <string name="recordWorkout">Edzés rögzítése</string>
+    <string name="noGpsTitle">GPS letiltva</string>
+    <string name="noGpsMessage">Engedélyezze a GPS használatát az edzés követéséhez.</string>
+    <string name="enable">Engedélyezés</string>
+    <string name="comment">Megjegyzés</string>
+    <string name="enterComment">Megjegyzés megadása</string>
+    <string name="okay">Rendben</string>
+    <string name="stopRecordingQuestion">Leállítja a rögzítést?</string>
+    <string name="stopRecordingQuestionMessage">Valóban le szeretné állítani a rögzítést?</string>
+    <!-- leave the underscore because "continue" is a java command -->
+    <string name="continue_">Folytatás</string>
+    <string name="deleteWorkout">Edzés törlése</string>
+    <string name="deleteWorkoutMessage">Valóban törölni szeretné az edzést?</string>
+    <string name="trackerRunning">A követő fut</string>
+    <string name="trackerRunningMessage">Az edzése rögzítés alatt van</string>
+    <string name="trackingInfo">Követési információk</string>
+    <string name="trackingInfoDescription">Információk a futó követőről</string>
+    <string name="cancel">Mégse</string>
+    <string name="exportAsGpxFile">Exportálás GPX-fájlként</string>
+    <string name="pref_weight">Az Ön súlya</string>
+    <string name="pref_weight_summary">Az Ön súlya az elégetett kalóriák kiszámításához szükséges</string>
+    <string name="pref_unit_system">Előnyben részesített mértékegységrendszer</string>
+    <string name="settings">Beállítások</string>
+    <string name="exportData">Adatok exportálása</string>
+    <string name="exportDataSummary">Ez biztonsági mentést készít az összes edzésről</string>
+    <string name="importBackup">Adatok biztonsági mentésének importálása</string>
+    <string name="importBackupSummary">Egy elkészített biztonsági mentés visszaállítása</string>
+    <string name="gps">GPS</string>
+    <string name="data">Adatok</string>
+    <string name="mapStyle">Térképstílus</string>
+    <string name="waiting_gps">Várakozás a GPS-re</string>
+    <string name="actionUploadToOSM">Feltöltés az OSM-re</string>
+    <string name="cut">Az első és utolsó 300 méter levágása</string>
+    <string name="trackVisibilityPref">Nyomvonal láthatósága</string>
+    <string name="description">Leírás</string>
+    <string name="ttsNotAvailable">A szöveg hanggá alakítása nem érhető el</string>
+    <string name="action_edit_comment">Megjegyzés szerkesztése</string>
+    <string name="pref_announcement_mode">Közlemény módja</string>
+    <string name="save">Mentés</string>
+    <string name="share">Megosztás</string>
+    <string name="savingFailed">A mentés sikertelen</string>
+    <string name="info">Információ</string>
+    <string name="OpenStreetMapAttribution">© OpenStreetMap közreműködők</string>
+    <string name="theme">Téma</string>
+    <string name="hintRestart">Indítsa újra az alkalmazást a változtatások alkalmazásához</string>
+    <string name="noComment">Nincs megjegyzés</string>
+    <string-array name="pref_announcement_mode">
+        <item>Mindig</item>
+        <item>Csak fülhallgatón</item>
+    </string-array>
+    <string-array name="pref_theme_setting">
+        <item>Világos</item>
+        <item>Sötét</item>
+    </string-array>
+    <string-array name="osm_track_visibility">
+        <item>Azonosítható</item>
+        <item>Követhető</item>
+        <item>Személyes</item>
+    </string-array>
+    <string name="intervalSet">Intervallumsorozat</string>
+    <string name="singleWorkout">Önálló edzés</string>
+    <string name="no_workouts_recorded">Nincsenek edzések rögzítve</string>
+    <string name="add_interval">Intervallum hozzáadása</string>
+    <string name="unitMilesPlural">Mérföld</string>
+    <string name="unitKilometersPlural">Kilométer</string>
+    <string name="aboutOpenSourceLibraries">Nyílt forráskódú programkönyvtárak</string>
+    <string name="createIntervalSet">Új intervallumsorozat létrehozása</string>
+    <string name="unitMetersSingular">Méter</string>
+    <string name="start">Indítás</string>
+    <string name="aboutSourceCode">Forráskód megtekintése</string>
+    <string name="preferenceDateFormat">Dátumformátum</string>
+    <string name="no_workouts_recorded_for_this_activity">Nincsenek edzések ehhez a tevékenységhez</string>
+    <string name="create">Létrehozás</string>
+    <string name="aboutLinks">Hivatkozások</string>
+    <string name="cannotStart">Nem lehet elindítani</string>
+    <string name="workout_statistics">Edzési statisztikák</string>
+    <string name="workoutTypeInlineSkating">Egysoros görkorcsolyázás</string>
+    <string name="unitKilometersSingular">Kilométer</string>
+    <string name="add">Hozzáadás</string>
+    <string name="unitKJoule">Kilojoule</string>
+    <string name="dataSamples">Minták</string>
+    <string name="manageIntervalsSummary">Az intervallumsorozat szerkesztése, amelyet hangos visszajelzés használatával lesz képes használni az edzés során.</string>
+    <string name="preferencesUserInterfaceTitle">Felhasználói felület</string>
+    <string name="deleteIntervalSetMessage">Szeretné törölni az intervallumsorozatot\?</string>
+    <string name="preferencesCategoryAppearance">Megjelenés</string>
+    <string name="aboutAuthor">Szerző</string>
+    <string name="speedLastMinute">Átlagsebesség (utolsó perc)</string>
+    <string name="unitYardsSingular">Yard</string>
+    <string name="pref_auto_timeout_title">Automatikus leállítás időtartama</string>
+    <string name="timeSecondsPlural">Másodperc</string>
+    <string name="hintEditIntervalSet">Intervallumok hozzáadása, amelyek ki lesznek mondva.</string>
+    <string name="unitKcalLong">Kalóriák</string>
+    <string name="dayInMonth">Hónap napja</string>
+    <string name="hintAddWorkout">Kattintson a plusz ikonra a rögzítéshez vagy adjon meg egy edzést.</string>
+    <string name="help">Súgó</string>
+    <string name="year">Év</string>
+    <string name="editWorkout">Edzés szerkesztése</string>
+    <string name="avgSpeedTotalLong">Átlagsebesség összesen</string>
+    <string name="month">Hónap</string>
+    <string name="editDisplayedInformationHint">Amíg az edzés nincs elindítva, addig szerkesztheti a megjelenített értékeket a négy mező egyikére történő kattintással.</string>
+    <string name="preferencesRecordingTitle">Rögzítés</string>
+    <string name="enterDescription">Adjon meg egy leírást</string>
+    <string name="day">Nap</string>
+    <string name="length_in_minutes">Időtartam (perc):</string>
+    <string name="avg">Átlag</string>
+    <string name="deleteIntervalSet">Intervallumsorozat törlése</string>
+    <string name="interval_name">Név:</string>
+    <string name="aboutChangelog">Változásnapló</string>
+    <string name="workoutDiscarded">Edzés eldobva</string>
+    <string name="aboutContributors">Közreműködők</string>
+    <string name="workoutRecording">Edzés rögzítése</string>
+    <string name="preferencesUserInterfaceSummary">Az alkalmazás személyre szabása</string>
+    <string name="avgSpeedInMotion">Átlagsebesség (mozgásban)</string>
+    <string name="unitMetersPerSecond">Méter per másodperc</string>
+    <string name="workoutNumber">Edzések száma</string>
+    <string name="intervalSetSelected">Intervallumsorozat kiválasztva</string>
+    <string name="cannotFindWorkout">Nem található edzés</string>
+    <string name="selectIntervalSet">Intervallumsorozat kiválasztása</string>
+    <string name="replace">Csere</string>
+    <string name="importWorkout">Edzés importálása</string>
+    <string name="aboutVersion">Verzió</string>
+    <string name="noWorkoutStarted">Nincs edzés elindítva</string>
+    <string name="unitFootPlural">Láb</string>
+    <string name="manageAutoTimeoutSummary">Az intervallum szerkesztése az automatikus edzésleállításhoz</string>
+    <string name="editDisplayedInformation">Megjelenített információk szerkesztése</string>
+    <string name="sendEmail">Ímél küldése</string>
+    <string name="merge">Egyesítés</string>
+    <string name="per">/</string>
+    <string name="workoutTypeSkateboarding">Gördeszkázás</string>
+    <string name="oClock">óra</string>
+    <string name="preferencesBackupTitle">Adatbázis</string>
+    <string name="preferencesRecordingSummary">Az edzés rögzítésének kezelése</string>
+    <string name="workoutStatsHelpText">Ez a képernyő történelmi statisztikákat jelenít meg az edzésekről. A használatához először meg kell határoznia az edzés típusát arra rákattintva. Ezután állítsa be azokat az információkat, amelyeket tudni szeretne, valamint az időtartamot.
+\n
+\nPéldául a „Hét” időtartamként való választásakor az egyes hetek összes edzése egyetlen adatpontba lesz egyesítve az egyes hetek átlagának vagy összegének kiszámításakor.</string>
+    <string name="pref_energy_unit">Energia mértékegysége</string>
+    <string name="calendarWeekYear">Naptári hét vagy év</string>
+    <string name="hintManageIntervalSets">Adjon hozzá egy intervallumsorozatot az edzésekben történő használathoz.</string>
+    <string name="currentTime">Jelenlegi idő</string>
+    <string name="max">Legnagyobb</string>
+    <string name="avgSpeedTotalShort">Átlagsebesség (összesen)</string>
+    <string name="unitYardsPlural">Yard</string>
+    <string name="min">Legkisebb</string>
+    <string name="replaceOrMergeMessage">Lecseréli vagy egyesíti az adatbázist a biztonsági mentés fájllal\?</string>
+    <string name="enterName">Adjon meg egy nevet</string>
+    <string name="aboutSendFeedback">Visszajelzés küldése a fejlesztőnek</string>
+    <string name="week">Hét</string>
+    <string name="aboutTitle">Névjegy</string>
+    <string name="workoutImported">Az edzés sikeresen importálva</string>
+    <string name="sections">Szakaszok</string>
+    <string name="preferenceTimeFormat">Időformátum</string>
+    <string name="aboutReportBug">Hiba jelentése</string>
+    <string name="unitMilesSingular">Mérföld</string>
+    <string name="timeSecondsSingular">Másodperc</string>
+    <string name="announcementSuppressDuringCall">Elnyomás hívás közben</string>
+    <string name="intervalsIncludePauseSummary">Ha be van kapcsolva, akkor az intervallumok akkor is folytatódnak, ha nem szünetelteti az edzést.</string>
+    <string name="unitKilometersPerHour">Kilométer per óra</string>
+    <string name="unitFootSingular">Gyaloglás</string>
+    <string name="intervalSets">Intervallumsorozatok</string>
+    <string name="intervalTraining">Intervallum edzés</string>
+    <string name="unitMetersPlural">Méter</string>
+    <string name="manageIntervalSets">Intervallumsorozatok kezelése</string>
+    <string name="unitMilesPerHour">Mérföld per óra</string>
+    <string name="speedLastMinuteSpoken">Sebesség az elmúlt percen belül</string>
+    <string name="unlockPhoneStopWorkout">Oldja fel a telefont a rögzítés leállításához</string>
+    <string name="preferencesBackupSummary">Edzésadatok biztonsági mentése vagy visszaállítása</string>
+    <string name="sum">Összesen</string>
+    <string name="intervalsIncludePauseTitle">Szünet idejének felvétele az intervallum edzésbe</string>
+    <string name="currentSpeed">Jelenlegi sebesség</string>
+    <string name="intervalAutoTimeoutTraining">Automatikus edzési időkorlát</string>
+    <string name="statsFilter">Szűrő:</string>
+    <string name="recordingPermissionNotGrantedTitle">Engedélyek nincsenek megadva</string>
+    <string name="savedSuccessfully">Elmentve</string>
+    <string name="trackerWaitingMessage">Várakozás az edzés megkezdésére</string>
+    <string name="workoutTypeRowing">Evezés</string>
+    <string name="recordingStateStopped">Leállítva</string>
+    <string name="recordingStatePaused">Szüneteltetve</string>
+    <string name="recordingStateRunning">Fut</string>
+    <string name="recordingStateIdle">Tétlen</string>
+    <string name="speechConfigNoSpeech">Nincs közlemény</string>
+    <string name="aboutHelpTranslating">Segítség a fordításban</string>
+    <string name="aboutUnlistedContributors">Köszönet az összes fel nem sorolt közreműködőnek, akik segítettek a CyclosApp fordításában és bővítésében!</string>
+    <string name="importedWorkouts">%d edzés importálva</string>
+    <string name="importingFiles">Fájlok importálása</string>
+    <string name="bulkActions">Tömeges műveletek</string>
+    <string name="importMultipleGpxFilesSummary">Egyszerre több GPX fájlt importálhat a fájlrendszerből</string>
+    <string name="importMultipleMessageSelectFolder">Válasszon egy mappát, amely tartalmazza az összes importálni kívánt GPX-fájlt.</string>
+    <string name="importMultipleGpxFiles">Több GPX-fájl importálása</string>
+    <string name="actionGrant">Grant</string>
+    <string name="aboutPrivacyPolicy">Adatvédelmi irányelvek</string>
+    <string name="inclination">Dőlésszög</string>
+    <string name="nothingSelected">Nincs kiválasztva</string>
+    <string name="showIntervals">Intervallumok megjelenítése</string>
+    <string name="connectHeartRateDevice">Csatlakoztassa a pulzusmérőt</string>
+    <string name="selectBluetoothDevice">Válassza ki a Bluetooth eszközt</string>
+    <string name="workoutAvgHeartRate">Avg. Pulzusszám</string>
+    <string name="workoutMaxHeartRate">Max Pulzusszám</string>
+    <string name="workoutHeartRate">Pulzusszám</string>
+    <string name="workoutStarted">Edzés kezdődött</string>
+    <string name="workoutStopped">Az edzés leállt</string>
+    <string name="workoutResumed">Az edzés folytatódik</string>
+    <string name="workoutPaused">Az edzés szünetelt</string>
+    <string name="actionResume">Folytatás</string>
+    <string name="actionPause">Szünet</string>
+    <string name="autoPauseSummary">Az edzések automatikus szüneteltetése és folytatása</string>
+    <string name="autoPauseTitle">Automatikus szünet</string>
+    <string name="resumeWorkout">Folytatás Edzés</string>
+    <string name="heartRateNotAvailable">A pulzusszám jelenleg nem áll rendelkezésre.</string>
+    <string name="intervals">Intervallumok</string>
+    <string name="announcementWorkoutActions">Edzésműveletek (Szünet, Folytatás stb.)</string>
+    <string name="resumeWorkoutConfirmation">Tényleg szeretné folytatni ezt az edzést\? Ez is hozzá egy szünet az idő az edzés leállt.</string>
+    <string name="prefShowOnLockScreenSummary">Edzésinformációk megjelenítése akkor is, ha a telefon zárolva van.</string>
+    <string name="prefShowOnLockScreenTitle">Látható a zár képernyőn</string>
+    <string name="notimeout">Nincs Időtúllépés</string>
+    <string name="workoutTypeEditMET">MET</string>
+    <string name="editWorkoutType">Edit edzés típusa</string>
+    <string name="workoutTypeEditIcon">Ikon</string>
+    <string name="deleteWorkoutTypeConfirmation">Tényleg törölni szeretné ezt az edzéstípust\?</string>
+    <string name="deleteWorkoutType">Az Edzés Típusának Törlése</string>
+    <string name="actionSave">Mentés</string>
+    <string name="customWorkoutTypesTitle">Egyéni Edzés Típusok</string>
+    <string name="preferenceCategoryVoiceFeedback">Hang visszacsatolás</string>
+    <string name="workoutTypeEditMETHint">Az energiafogyasztásra vonatkozó intézkedés</string>
+    <string name="workoutTypeEditMinDistanceHint">Két GPS-minta közötti minimális távolság</string>
+    <string name="workoutTypeEditMinDistance">Minta távolság</string>
+    <string name="workoutTypeEditNameError">Kérjük, adjon meg egy nevet</string>
+    <string name="workoutTypeEditName">Név</string>
+    <string name="workoutTypeEditIdErrorUnique">Már van egy edzés típusa használja ezt az azonosítót</string>
+    <string name="workoutTypeEditIdErrorEmpty">Kérjük, adjon meg egy azonosítót</string>
+    <string name="workoutTypeEditIdErrorCharacters">Engedélyezett karakterek: a–z, A–Z, 0–9, _, -</string>
+    <string name="workoutTypeEditId">ID</string>
+    <string name="hintManageWorkoutTypes">Kattintson a pluszra az egyéni edzéstípusok hozzáadásához.</string>
+    <string name="workoutTypeAdd">Hozzáadás</string>
+</resources>

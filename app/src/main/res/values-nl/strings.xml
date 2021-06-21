@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+  ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  --><resources>
+    <string name="app_name">CyclosApp</string>
+    <string name="workout_add">Toevoegen</string>
+    <string name="stop">Stop</string>
+    <string name="delete">Verwijderen</string>
+    <string name="exporting">Exporteren</string>
+    <string name="error">Fout</string>
+    <string name="errorGpxExportFailed">De GPX export is mislukt.</string>
+    <string name="errorExportFailed">Data export is mislukt.</string>
+    <string name="errorImportFailed">Data import is mislukt.</string>
+    <string name="shareFile">Bestand delen</string>
+    <string name="initialising">Initialiseren</string>
+    <string name="preferences">Voorkeuren</string>
+    <string name="workouts">Trainingen</string>
+    <string name="locationData">Locatie data</string>
+    <string name="converting">Converteren</string>
+    <string name="finished">Gereed</string>
+    <string name="loadingFile">Bestand laden</string>
+    <string name="chooseBackupFile">Kies back-up bestand</string>
+    <string name="importBackupMessage">WAARSCHUWING: Al je huidige gegevens in de app worden verwijderd. Als je deze niet wilt verliezen, maak dan vooraf een back-up. Weet je zeker dat je de back-up wilt herstellen?</string>
+    <string name="restore">Herstellen</string>
+    <string name="backup">Back-up</string>
+    <string name="pref_ringtone_silent">Stil</string>
+    <string name="setPreferencesTitle">Voorkeuren opgeven</string>
+    <string name="setPreferencesMessage">Geef je voorkeur voor het eenheidssysteem en je gewicht op bij instellingen.</string>
+    <string name="timeMinuteSingular">Minuut</string>
+    <string name="timeMinutePlural">Minuten</string>
+    <string name="timeMinuteShort">min</string>
+    <string name="timeHourSingular">Uur</string>
+    <string name="timeHourPlural">Uren</string>
+    <string name="timeHourShort">h</string>
+    <string name="timeSecondsShort">s</string>
+    <string name="and">en</string>
+    <string name="errorEnterValidNumber">Voer een juist nummer in</string>
+    <string name="errorWorkoutAddFuture">De training kan niet in de toekomst zijn</string>
+    <string name="errorEnterValidDuration">Voer een geldige duur in</string>
+    <string name="announcementGPSStatus">GPS status</string>
+    <string name="voiceAnnouncementsTitle">Gesproken aanwijzingen</string>
+    <string name="pref_voice_announcements_summary">Configureer de stembesturing voor tijdens de training</string>
+    <string name="pref_announcements_config_title">Trigger voor gesproken aanwijzingen</string>
+    <string name="pref_announcements_config_summary">Kies de tijd en afstand tussen de gesproken aanwijzingen</string>
+    <string name="pref_announcements_content">Inhoud van de gesproken aanwijzingen</string>
+    <string name="gpsLost">GPS signaal verloren</string>
+    <string name="gpsFound">GPS signaal gevonden</string>
+    <string name="workoutTime">Tijd</string>
+    <string name="workoutDate">Datum</string>
+    <string name="workoutDuration">Tijdsduur</string>
+    <string name="workoutPauseDuration">Pauzetijd</string>
+    <string name="workoutStartTime">Start Tijd</string>
+    <string name="workoutEndTime">Eind Tijd</string>
+    <string name="workoutDistance">Afstand</string>
+    <string name="workoutPace">Tempo</string>
+    <string name="workoutRoute">Route</string>
+    <string name="workoutSpeed">Snelheid</string>
+    <string name="workoutAvgSpeedShort">Gem. Snelheid</string>
+    <string name="workoutAvgSpeedLong">Gemiddelde Snelheid</string>
+    <string name="workoutTopSpeed">Topsnelheid</string>
+    <string name="workoutBurnedEnergy">Energieverbranding</string>
+    <string name="workoutTotalEnergy">Totale Energie</string>
+    <string name="workoutEnergyConsumption">Energieverbruik</string>
+    <string name="workoutEdited">Deze training is gewijzigd.</string>
+    <string name="uploading">Uploaden</string>
+    <string name="enterVerificationCode">Verificatiecode invoeren</string>
+    <string name="authenticationFailed">Authenticatie mislukt.</string>
+    <string name="upload">Uploaden</string>
+    <string name="uploadSuccessful">Uploaden gelukt</string>
+    <string name="uploadFailed">Uploaden mislukt</string>
+    <string name="uploadFailedOsmNotAuthorized">Niet geautoriseerd, probeer opnieuw</string>
+    <string name="workoutAscent">Oplopend</string>
+    <string name="workoutDescent">Aflopend</string>
+    <string name="height">Hoogte</string>
+    <string name="workoutTypeRunning">Hardlopen</string>
+    <string name="workoutTypeWalking">Wandelen</string>
+    <string name="workoutTypeJogging">Joggen</string>
+    <string name="workoutTypeCycling">Fietsen</string>
+    <string name="workoutTypeHiking">Bergwandelen</string>
+    <string name="workoutTypeSkateboarding">Skateboarden</string>
+    <string name="workoutTypeInlineSkating">Inline skaten</string>
+    <string name="workoutTypeOther">Anders</string>
+    <string name="workoutTypeUnknown">Onbekend</string>
+    <string name="type">Type</string>
+    <string name="enterWorkout">Training invoeren</string>
+    <string name="importWorkout">Training importeren</string>
+    <string name="setDuration">Tijdsduur instellen</string>
+    <string name="recordWorkout">Training opnemen</string>
+    <string name="noGpsTitle">GPS uitgeschakeld</string>
+    <string name="noGpsMessage">Schakel GPS in om je training op te nemen.</string>
+    <string name="enable">Inschakelen</string>
+    <string name="comment">Opmerking</string>
+    <string name="enterComment">Opmerking invoeren</string>
+    <string name="okay">Oke</string>
+    <string name="stopRecordingQuestion">Stop Opname?</string>
+    <string name="stopRecordingQuestionMessage">Weet je zeker dat je de opname wilt stoppen?</string>
+    <!-- leave the underscore because "continue" is a java command -->
+    <string name="continue_">Doorgaan</string>
+    <string name="deleteWorkout">Training verwijderen</string>
+    <string name="deleteWorkoutMessage">Weet je zeker dat je de training wilt verwijderen?</string>
+    <string name="trackerRunning">Tracker loopt</string>
+    <string name="trackerRunningMessage">Je training wordt opgenomen</string>
+    <string name="trackingInfo">Tracking info</string>
+    <string name="trackingInfoDescription">Info over de lopende opname</string>
+    <string name="cancel">Annuleren</string>
+    <string name="exportAsGpxFile">Exporteren als GPX bestand</string>
+    <string name="pref_weight">Je gewicht</string>
+    <string name="pref_weight_summary">Je gewicht is nodig om de juiste calorieverbranding te berekening</string>
+    <string name="pref_unit_system">Voorkeur van eenheden</string>
+    <string name="settings">Instellingen</string>
+    <string name="exportData">Exporteer Data</string>
+    <string name="exportDataSummary">Maakt een back-up van alle trainingsdata</string>
+    <string name="importBackup">Importeer data back-up</string>
+    <string name="importBackupSummary">Herstel een gemaakte back-up</string>
+    <string name="gps">GPS</string>
+    <string name="data">Data</string>
+    <string name="mapStyle">Kaartstijl</string>
+    <string name="waiting_gps">Wacht op GPS</string>
+    <string name="actionUploadToOSM">Upload naar OSM</string>
+    <string name="cut">Knip de eerste/laatste 300 meter</string>
+    <string name="trackVisibilityPref">Zichtbaarheid opname</string>
+    <string name="description">Beschrijving</string>
+    <string name="ttsNotAvailable">Tekst-naar-spraak is niet beschikbaar</string>
+    <string name="action_edit_comment">Bewerk opmerking</string>
+    <string name="pref_announcement_mode">Aankondigingsmodus</string>
+    <string name="save">Opslaan</string>
+    <string name="share">Delen</string>
+    <string name="savingFailed">Opslaan mislukt</string>
+    <string name="info">Info</string>
+    <string name="OpenStreetMapAttribution">© OpenStreetMap bijdragers</string>
+    <string name="theme">Thema</string>
+    <string name="hintRestart">Herstart de app om de wijzingen toe te passen</string>
+    <string name="noComment">Geen opmerking</string>
+    <string name="start">Start</string>
+    <string name="cannotStart">Kan niet starten</string>
+    <string name="add">Toevoegen</string>
+    <string name="add_interval">Interval toevoegen</string>
+    <string name="manageIntervalSets">Interval reeksen beheren</string>
+    <string name="manageIntervalsSummary">Bewerk de interval reeksen die je tijdens de training kunt gebruiken met behulp van gesproken feedback.</string>
+    <string name="workoutRecording">Training opnemen</string>
+    <string name="createIntervalSet">Nieuwe interval reeks maken</string>
+    <string name="create">Maken</string>
+    <string name="hintManageIntervalSets">Voeg een interval reeks toe om deze in je trainingen te gebruiken.</string>
+    <string name="hintEditIntervalSet">Voeg intervallen toe die zullen worden uitgesproken.</string>
+    <string name="interval_name">Naam:</string>
+    <string name="length_in_minutes">Duur (minuten):</string>
+    <string name="enterName">Voer een naam in</string>
+    <string name="deleteIntervalSet">Interval reeks verwijderen</string>
+    <string name="deleteIntervalSetMessage">Wil je de ingestelde interval verwijderen?</string>
+    <string name="selectIntervalSet">Selecteer Interval Reeks</string>
+    <string name="intervalSetSelected">Interval Reeks geselecteerd</string>
+    <string name="intervalsIncludePauseTitle">Pauzetijd opnemen in intervaltraining</string>
+    <string name="intervalsIncludePauseSummary">Indien waar, zullen de intervallen doorgaan, zelfs als je pauzeert tijdens de training.</string>
+    <string name="intervalTraining">Intervaltraining</string>
+    <string name="intervalSet">Interval reeks</string>
+    <string name="intervalSets">Interval reeksen</string>
+    <string name="currentSpeed">Huidige snelheid</string>
+    <string name="hintAddWorkout">Klik op het pluspictogram om een training op te nemen of in te voeren.</string>
+    <string name="enterDescription">Voer een beschrijving in</string>
+    <string name="avgSpeedInMotion">Gem. snelheid (tijdens beweging)</string>
+    <string name="avgSpeedTotalShort">Gem. snelheid (totaal)</string>
+    <string name="avgSpeedTotalLong">Totale gemiddelde snelheid</string>
+    <string name="preferencesUserInterfaceTitle">Gebruikersomgeving</string>
+    <string name="preferencesUserInterfaceSummary">Personaliseer de app</string>
+    <string name="preferencesRecordingTitle">Opname</string>
+    <string name="preferencesRecordingSummary">Beheer de trainingsopname</string>
+    <string name="preferencesBackupTitle">Database</string>
+    <string name="preferencesBackupSummary">Back-up/herstel je trainingsgegevens</string>
+    <string name="preferencesCategoryAppearance">Uiterlijk</string>
+    <string name="preferenceDateFormat">Datumnotatie</string>
+    <string name="preferenceTimeFormat">Tijdnotatie</string>
+    <string name="workoutDiscarded">Training verwijderd</string>
+    <string name="timeSecondsSingular">Seconde</string>
+    <string name="timeSecondsPlural">Seconden</string>
+    <string name="per">per</string>
+    <string name="unitMilesSingular">Mijl</string>
+    <string name="unitMilesPlural">Mijl</string>
+    <string name="unitYardsSingular">Yard</string>
+    <string name="unitYardsPlural">Yards</string>
+    <string name="unitMilesPerHour">Mijl per uur</string>
+    <string name="unitMetersPlural">Meter</string>
+    <string name="unitMetersSingular">Meter</string>
+    <string name="unitKilometersPlural">Kilometer</string>
+    <string name="unitKilometersSingular">Kilometer</string>
+    <string name="unitKilometersPerHour">Kilometer per uur</string>
+    <string name="unitMetersPerSecond">Meter per seconde</string>
+    <string name="unitKcalLong">Calorieën</string>
+    <string name="unitKJoule">Kilojoule</string>
+    <string name="pref_energy_unit">Energie eenheid</string>
+    <string name="manageAutoTimeoutSummary">Bewerk het interval voor automatische trainingsstop</string>
+    <string name="intervalAutoTimeoutTraining">Automatische trainingspauze</string>
+    <string name="pref_auto_timeout_title">Tijd voor Auto-Stop</string>
+    <string name="currentTime">Huidige tijd</string>
+    <string name="oClock">op de klok</string>
+    <string name="unlockPhoneStopWorkout">Ontgrendel uw telefoon om de opname te stoppen</string>
+    <string name="no_workouts_recorded_for_this_activity">Geen trainingen voor deze activiteit</string>
+    <string name="workout_statistics">Trainingsstatistieken</string>
+    <string name="day">Dag</string>
+    <string name="week">Week</string>
+    <string name="month">Maand</string>
+    <string name="year">Jaar</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="avg">Gem.</string>
+    <string name="sum">Som</string>
+    <string name="workoutNumber">Aantal trainingen</string>
+    <string name="statsFilter">Filter:</string>
+    <string name="help">Help</string>
+    <string name="calendarWeekYear">Kalendar Week / Jaar</string>
+    <string name="dayInMonth">Dag in maand</string>
+    <string name="singleWorkout">Enkele training</string>
+    <string name="workoutStatsHelpText">Dit scherm toont historische statistieken van de trainingen. Om het te gebruiken, moet je eerst het trainingstype specificeren door erop te klikken. Stel vervolgens de informatie in waarover je meer wilt weten en de tijdsduur. \n\nE.g. Bijvoorbeeld als je \"Week\" selecteert als tijdsperiode, worden alle trainingen van elke week samengevoegd tot één gegevenspunt, waarbij ofwel het gemiddelde ofwel de som van elke week wordt berekend.</string>
+    <string name="dataSamples">Voorbeelden</string>
+    <string name="replaceOrMergeMessage">Database vervangen of samenvoegen met back-upbestand?</string>
+    <string name="replace">Vervangen</string>
+    <string name="merge">Samenvoegen</string>
+    <string name="workoutImported">Trainingen succesvol geïmporteerd</string>
+    <string name="announcementSuppressDuringCall">Onderdrukken tijdens gesprek</string>
+    <string name="no_workouts_recorded">Geen trainingen opgenomen</string>
+    <string name="sections">Secties</string>
+    <string name="speedLastMinute">Gem. snelheid (Laaste minuut)</string>
+    <string name="speedLastMinuteSpoken">Snelheid in de laatste minuut</string>
+    <string name="cannotFindWorkout">Kan geen training vinden</string>
+    <string name="editWorkout">Training aanpassen</string>
+    <string-array name="pref_energy_units">
+        <item>kcal</item>
+        <item>Joule</item>
+    </string-array>
+    <string-array name="pref_announcement_mode">
+        <item>Altijd</item>
+        <item>Alleen met koptelefoon</item>
+    </string-array>
+    <string-array name="pref_theme_setting">
+        <item>Licht</item>
+        <item>Donker</item>
+    </string-array>
+    <string-array name="pref_time_format">
+        <item>Systeemstandaard</item>
+        <item>12:08 PM</item>
+        <item>15:23</item>
+    </string-array>
+    <string-array name="pref_date_format">
+        <item>Systeemstandaard</item>
+        <item>2001-07-24</item>
+        <item>2001.07.24</item>
+        <item>2001/07/24</item>
+        <item>24-07-2001</item>
+        <item>24.07.2001</item>
+        <item>24/07/2001</item>
+        <item>07/24/2001</item>
+    </string-array>
+    <string name="aboutLinks">Links</string>
+    <string name="aboutReportBug">Meld een bug</string>
+    <string name="aboutOpenSourceLibraries">Open source bibliotheken</string>
+    <string name="aboutChangelog">Wijzigingen</string>
+    <string name="aboutVersion">Versie</string>
+    <string name="aboutTitle">Over</string>
+    <string name="unitFootPlural">Voeten</string>
+    <string name="unitFootSingular">Voet</string>
+    <string name="noWorkoutStarted">Geen training gestart</string>
+    <string name="editDisplayedInformationHint">Zolang de training nog niet is gestart, kun je de weergegeven waarden bewerken door op een van de vier velden te klikken.</string>
+    <string name="editDisplayedInformation">Bewerk de weergegeven informatie</string>
+    <string name="sendEmail">Stuur een e-mail</string>
+    <string name="aboutSourceCode">Bekijk de broncode</string>
+    <string name="aboutSendFeedback">Stuur feedback naar de ontwikkelaar</string>
+    <string name="aboutContributors">Bijdragers</string>
+    <string name="aboutAuthor">Auteur</string>
+    <string name="trackerWaitingMessage">Wachten om de training te starten</string>
+    <string name="recordingPermissionNotGrantedTitle">Toestemmingen niet verleend</string>
+    <string name="savedSuccessfully">Opgeslagen</string>
+    <string name="workoutTypeRowing">Roeien</string>
+    <string name="recordingStateStopped">Gestopt</string>
+    <string name="recordingStatePaused">Gepauzeerd</string>
+    <string name="recordingStateRunning">Lopend</string>
+    <string name="recordingStateIdle">Niet actief</string>
+    <string name="speechConfigNoSpeech">Geen aankondiging</string>
+    <string name="aboutHelpTranslating">Helpen met vertalen</string>
+    <string name="aboutUnlistedContributors">Met dank aan alle niet-beursgenoteerde medewerkers die hebben geholpen bij het vertalen en uitbreiden van CyclosApp!</string>
+    <string name="importedWorkouts">Geïmporteerde %d trainingen</string>
+    <string name="importingFiles">Bestanden importeren</string>
+    <string name="bulkActions">Bulkacties</string>
+    <string name="importMultipleGpxFilesSummary">Importeer meer dan één GPX-bestand tegelijk uit het bestandssysteem</string>
+    <string name="importMultipleMessageSelectFolder">Selecteer een map met alle GPX-bestanden die u wilt importeren.</string>
+    <string name="importMultipleGpxFiles">Meerdere GPX-bestanden importeren</string>
+    <string name="actionGrant">Toesteming verlenen</string>
+    <string name="aboutPrivacyPolicy">Privacybeleid</string>
+    <string name="inclination">Helling</string>
+    <string name="nothingSelected">Niets geselecteerd</string>
+    <string name="showIntervals">Toon de intervallen</string>
+    <string name="connectHeartRateDevice">Sluit het hartslagapparaat aan</string>
+    <string name="selectBluetoothDevice">Selecteer Bluetoothapparaat</string>
+    <string name="workoutAvgHeartRate">Avg. Hartslag</string>
+    <string name="workoutMaxHeartRate">Maximale hartslag</string>
+    <string name="workoutHeartRate">Hartslag</string>
+    <string name="workoutStarted">Training gestart</string>
+    <string name="workoutStopped">Training gestopt</string>
+    <string name="workoutResumed">Training hervat</string>
+    <string name="workoutPaused">Training gepauzeerd</string>
+    <string name="actionResume">Hervatten</string>
+    <string name="actionPause">Pauzeren</string>
+    <string name="autoPauseSummary">Automatisch pauzeren</string>
+    <string name="autoPauseTitle">Automatisch pauzeren</string>
+    <string name="resumeWorkout">Weer Trainen</string>
+    <string name="heartRateNotAvailable">Hartslag is momenteel niet beschikbaar.</string>
+    <string name="intervals">Interval</string>
+    <string name="announcementWorkoutActions">Training acties (pauzeren, hervatten, enz.)</string>
+    <string name="resumeWorkoutConfirmation">Wil je echt doorgaan met deze training\? Dit zal ook een pauze toevoegen vanaf het moment dat de training werd gestopt.</string>
+    <string name="prefShowOnLockScreenSummary">Toon training informatie, zelfs als de telefoon op slot zit.</string>
+    <string name="prefShowOnLockScreenTitle">Zichtbaar op vergrendelscherm</string>
+    <string name="notimeout">Geen Time-Out</string>
+    <string name="workoutTypeEditMET">MET</string>
+    <string name="editWorkoutType">Workout type bewerken</string>
+    <string name="workoutTypeEditIcon">Pictogram</string>
+    <string name="deleteWorkoutTypeConfirmation">Wil je echt deze workout type verwijderen\?</string>
+    <string name="deleteWorkoutType">Workout-Type Verwijderen</string>
+    <string name="actionSave">Opslaan</string>
+    <string name="customWorkoutTypesTitle">Aangepaste Trainingstypes</string>
+    <string name="preferenceCategoryVoiceFeedback">Feedback</string>
+    <string name="workoutTypeEditMETHint">Een maatregel voor energieverbruik</string>
+    <string name="workoutTypeEditMinDistanceHint">Minimumafstand tussen twee GPS-monsters</string>
+    <string name="workoutTypeEditMinDistance">Monsterafstand</string>
+    <string name="workoutTypeEditNameError">Voer a. U. B. een naam in</string>
+    <string name="workoutTypeEditName">Naam</string>
+    <string name="workoutTypeEditIdErrorUnique">Er is al een workout type met behulp van deze ID</string>
+    <string name="workoutTypeEditIdErrorEmpty">Voer een ID in</string>
+    <string name="workoutTypeEditIdErrorCharacters">Toegestane tekens: a–z, A–Z, 0–9, _, -</string>
+    <string name="workoutTypeEditId">ID</string>
+    <string name="hintManageWorkoutTypes">Klik op de plus om aangepaste workout types toe te voegen.</string>
+    <string name="workoutTypeAdd">Toevoegen</string>
+    <string name="actionImportMultiple">Meerdere importeren</string>
+    <string name="actionImport">Importeren</string>
+    <string name="importWorkoutMultipleQuestion">Wil je één of GPX-bestand of meerdere importeren\?</string>
+</resources>

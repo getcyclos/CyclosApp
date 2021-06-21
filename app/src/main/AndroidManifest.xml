@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ve.cyclos.fitness">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.barometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:appCategory="productivity"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.settings.WebCyclos"></activity>
+        <activity android:name=".ui.settings.DownloadMapsActivity" />
+        <activity android:name=".ui.settings.EditWorkoutTypeActivity" />
+        <activity android:name=".ui.settings.ManageWorkoutTypesActivity" />
+        <activity android:name=".ui.ShareFileActivity" />
+        <activity android:name=".ui.settings.AboutActivity" />
+        <activity android:name=".ui.settings.EditIntervalSetActivity" />
+        <activity android:name=".ui.settings.ManageIntervalSetsActivity" />
+        <activity android:name=".ui.settings.VoiceAnnouncementsSettingsActivity" />
+        <activity android:name=".ui.settings.MainSettingsActivity" />
+        <activity android:name=".ui.workout.EnterWorkoutActivity" />
+        <activity
+            android:name=".ui.workout.ShowWorkoutMapActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.workout.ShowWorkoutMapDiagramActivity" />
+        <activity
+            android:name=".ui.workout.ShowWorkoutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.record.RecordWorkoutActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:showOnLockScreen="true" />
+        <activity
+            android:name=".ui.ListWorkoutsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.LauncherActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.settings.InterfaceSettingsActivity" />
+        <activity android:name=".ui.settings.RecordingSettingsActivity" />
+        <activity android:name=".ui.settings.BackupSettingsActivity" />
+        <activity android:name=".ui.workout.AggregatedWorkoutStatisticsActivity" />
+        <activity
+            android:name=".ui.workout.ShareWorkoutActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <service
+            android:name=".recording.RecorderService"
+            android:foregroundServiceType="location" />
+    </application>
+
+</manifest>

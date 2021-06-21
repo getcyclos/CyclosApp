@@ -1,0 +1,10 @@
+- Show stop points (pauses) on the fullscreen map
+
+- Added icons for horseback riding and skiing
+- Better performance when viewing long workouts
+- Import multiple workouts moved to the main screen
+- Import all tracks from a GPX-file
+
+- Correctly import workout types from backups
+
+please see the project repository on Codeberg for a more detailed list of changes

@@ -1,0 +1,98 @@
+<!--
+  ~ Copyright (c) 2020 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+  ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+
+    <style name="AppThemeNoActionbar" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColorPrimary">@color/textLighterBlack</item>
+    </style>
+
+    <style name="Running" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimaryRunning</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkRunning</item>
+    </style>
+
+    <style name="Bicycling" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimaryBicycling</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkBicycling</item>
+    </style>
+
+    <style name="Hiking" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimaryHiking</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkHiking</item>
+    </style>
+
+    <style name="Skating" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimarySkating</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkSkating</item>
+    </style>
+
+    <style name="Rowing" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimaryRowing</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkRowing</item>
+    </style>
+
+
+    <style name="AppThemeDark" parent="android:Theme.Material">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/black</item>
+
+        <item name="android:textColorPrimary">@color/textDarkerWhite</item>
+    </style>
+
+    <style name="RunningDark" parent="AppThemeDark">
+        <item name="android:colorPrimary">@color/colorPrimaryRunning</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkRunning</item>
+    </style>
+
+    <style name="BicyclingDark" parent="AppThemeDark">
+        <item name="android:colorPrimary">@color/colorPrimaryBicyclingLighter</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkBicyclingLighter</item>
+    </style>
+
+    <style name="HikingDark" parent="AppThemeDark">
+        <item name="android:colorPrimary">@color/colorPrimaryHiking</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkHiking</item>
+    </style>
+
+    <style name="SkatingDark" parent="AppThemeDark">
+        <item name="android:colorPrimary">@color/colorPrimarySkating</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkSkating</item>
+    </style>
+
+    <style name="RowingDark" parent="AppThemeDark">
+        <item name="android:colorPrimary">@color/colorPrimaryRowing</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkRowing</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_ringtone_silent">Wycisz</string>
+    <string name="restore">Przywróć</string>
+    <string name="importBackupMessage">UWAGA: Wszystkie dotychczasowe dane zostaną wyczyszczone. Jeśli chcesz je zachować, zrób najpierw ich kopię. Czy na pewno chcesz kontynuować\?</string>
+    <string name="chooseBackupFile">Wybierz plik kopii</string>
+    <string name="loadingFile">Ładowanie pliku</string>
+    <string name="finished">Zakończone</string>
+    <string name="converting">Konwersja</string>
+    <string name="locationData">Dane o lokalizacji</string>
+    <string name="workouts">Treningi</string>
+    <string name="preferences">Preferencje</string>
+    <string name="initialising">Inicjalizacja</string>
+    <string name="shareFile">Udostępnij plik</string>
+    <string name="errorImportFailed">Nieudany import danych.</string>
+    <string name="errorExportFailed">Nieudany eksport danych.</string>
+    <string name="errorGpxExportFailed">Nieudany eksport GPX.</string>
+    <string name="error">Błąd</string>
+    <string name="exporting">Eksportuj</string>
+    <string name="delete">Usuń</string>
+    <string name="stop">Stop</string>
+    <string name="workout_add">Dodaj</string>
+    <string name="app_name">CyclosApp</string>
+</resources>

@@ -1,0 +1,7 @@
+- Import multiple workouts
+
+- Fix permission dialog showing incorrectly on Android <10
+- Refresh clicked workout when going back to the workout list
+- Format announcement trigger dialog correctly
+
+- Update Translations

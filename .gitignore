@@ -1,0 +1,18 @@
+# testing
+/coverage
+
+# production
+/build
+/app/build
+/app/release
+
+# misc
+.*
+!.gitignore
+
+# idea
+*.iml
+
+# gradle
+local.properties
+

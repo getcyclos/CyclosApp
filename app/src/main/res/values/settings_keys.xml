@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+      ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+
+    <!-- Theses keys are not supposed to be translated -->
+
+    <string-array name="pref_announcement_mode_values">
+        <item>always</item>
+        <item>headphones</item>
+    </string-array>
+
+    <string-array name="pref_map_layers_values">
+        <item>osm.mapnik</item>
+        <item>osm.humanitarian</item>
+        <item>offline</item>
+    </string-array>
+
+    <string-array name="pref_theme_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="pref_unit_system_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="pref_time_format_values">
+        <item>system</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="pref_date_format_values">
+        <item>system</item>
+        <item>yyyy-MM-dd</item>
+        <item>yyyy.MM.dd</item>
+        <item>yyyy/MM/dd</item>
+        <item>dd-MM-yyyy</item>
+        <item>dd.MM.yyyy</item>
+        <item>dd/MM/yyyy</item>
+        <item>MM/dd/yyyy</item>
+    </string-array>
+
+    <string-array name="pref_energy_unit_values">
+        <item>kcal</item>
+        <item>joule</item>
+    </string-array>
+    <!--
+        <string name="urlRepository" translatable="false">https://codeberg.org/jannis/CyclosApp</string>
+        <string name="urlChangelog" translatable="false">https://codeberg.org/jannis/CyclosApp/releases</string>
+        <string name="urlBugReport" translatable="false">https://codeberg.org/jannis/CyclosApp/issues</string>
+        <string name="urlCopyrightNotices" translatable="false">https://codeberg.org/jannis/CyclosApp/src/branch/master/NOTICE.md</string>
+        <string name="urlWeblate" translatable="false">https://hosted.weblate.org/engage/fitotrack/</string>
+        -->
+        <string name="urlPrivacy" translatable="false">https://getcyclos.com/privacy-policy/</string>
+
+        <string name="authorName" translatable="false">Gabriel Estrada</string>
+        <string name="urlAuthor" translatable="false">https://getcyclos.com</string>
+        <string name="emailAuthor" translatable="false">dev@getcyclos.com</string>
+
+        <string name="urlDownloadMaps" translatable="false">https://ftp-stud.hs-esslingen.de/pub/Mirrors/download.mapsforge.org/maps/v5/</string>
+
+    </resources>

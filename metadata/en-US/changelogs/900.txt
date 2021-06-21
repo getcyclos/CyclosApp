@@ -1,0 +1,11 @@
+- Add heart rate measurement
+- Import/export heart rates from/to GPX files
+- Resume stopped workouts
+- Disable autopause and use manual pause option
+- New announcement: workout state changes like start, pause, resume
+
+- Improved chart screen
+- Scale map according to screen size
+- Make "show on lockscreen" optional (disabled by default)
+
+please see the project repository on Codeberg for more changes

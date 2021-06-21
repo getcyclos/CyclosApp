@@ -1,0 +1,11 @@
+New features:
+- Startbutton for workouts
+- Interval announcements
+- Custom InfoViews in the recording screen
+- Support Inline Skating as activity
+
+- Add a new option to settings to select date and time format
+- Icon indicating activity
+- Setting for energy units (kcal/J) and Wrong spelling of distance and time units
+
+please see the project repository on Codeberg for more changes

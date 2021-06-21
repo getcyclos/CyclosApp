@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+  ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_unit_systems"
+        android:entryValues="@array/pref_unit_system_values"
+        android:key="unitSystem"
+        android:title="@string/pref_unit_system" />
+
+    <Preference
+        android:key="weight"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/pref_weight_summary"
+        android:title="@string/pref_weight" />
+
+    <PreferenceCategory android:title="@string/preferencesCategoryAppearance">
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_theme_setting"
+            android:entryValues="@array/pref_theme_setting_values"
+            android:key="themeSetting"
+            android:title="@string/theme" />
+
+        <ListPreference
+            android:defaultValue="osm.mapnik"
+            android:entries="@array/pref_map_layers"
+            android:entryValues="@array/pref_map_layers_values"
+            android:key="mapStyle"
+            android:title="@string/mapStyle" />
+
+        <Preference
+            android:key="offlineMapFileName"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_map_file" />
+
+        <Preference
+            android:key="offlineMapDownload"
+            android:title="@string/downloadMapsTitle" />
+
+        <ListPreference
+            android:defaultValue="system"
+            android:entries="@array/pref_date_format"
+            android:entryValues="@array/pref_date_format_values"
+            android:key="dateFormat"
+            android:title="@string/preferenceDateFormat" />
+
+        <ListPreference
+            android:defaultValue="system"
+            android:entries="@array/pref_time_format"
+            android:entryValues="@array/pref_time_format_values"
+            android:key="timeFormat"
+            android:title="@string/preferenceTimeFormat" />
+
+        <ListPreference
+            android:defaultValue="kcal"
+            android:entries="@array/pref_energy_units"
+            android:entryValues="@array/pref_energy_unit_values"
+            android:key="energyUnit"
+            android:title="@string/pref_energy_unit" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

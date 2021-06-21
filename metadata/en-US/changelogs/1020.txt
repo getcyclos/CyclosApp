@@ -1,0 +1,18 @@
+10.2:
+
+This update introduces a fix for a bug that occurred on some devices so they could not use CyclosApp due to GPS not being found even if the device gets a good GPS signal.
+
+If you think that this is still not fixed, please open an issue at the project repository or send me an email. Thanks.
+
+10.1:
+
+- Show stop points (pauses) on the fullscreen map
+
+- Added icons for horseback riding and skiing
+- Better performance when viewing long workouts
+- Import multiple workouts moved to the main screen
+- Import all tracks from a GPX-file
+
+- Correctly import workout types from backups
+
+please see the project repository on Codeberg for a more detailed list of changes

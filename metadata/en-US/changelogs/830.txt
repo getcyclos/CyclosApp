@@ -1,0 +1,5 @@
+- Add Privacy Policy
+- Fix GPX-Export files saving on Android <10
+- Change the way how the location permission is requested to comply with the new Google Play rules
+
+- Updated translations

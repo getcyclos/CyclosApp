@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2020 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+  ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Preference
+        android:key="speechConfig"
+        android:summary="@string/pref_announcements_config_summary"
+        android:title="@string/pref_announcements_config_title" />
+
+    <ListPreference
+        android:defaultValue="headphones"
+        android:entries="@array/pref_announcement_mode"
+        android:entryValues="@array/pref_announcement_mode_values"
+        android:key="announcementMode"
+        android:title="@string/pref_announcement_mode" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="announcementSuppressDuringCall"
+        android:title="@string/announcementSuppressDuringCall" />
+
+    <PreferenceCategory android:title="@string/pref_announcements_content">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="announcement_system_actions"
+            android:title="@string/announcementWorkoutActions" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="announcement_gps-lost"
+            android:title="@string/announcementGPSStatus" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="announcement_currentTime"
+            android:title="@string/currentTime" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="announcement_duration"
+            android:title="@string/workoutDuration" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="announcement_distance"
+            android:title="@string/workoutDistance" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="announcement_current_speed"
+            android:title="@string/currentSpeed" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="announcement_speed_last_minute"
+            android:title="@string/speedLastMinute" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="announcement_avgSpeedMotion"
+            android:title="@string/avgSpeedInMotion" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="announcement_avgSpeedTotal"
+            android:title="@string/avgSpeedTotalShort" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="announcement_avg_pace"
+            android:title="@string/workoutPace" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="announcement_current_heart_rate"
+            android:title="@string/workoutHeartRate" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="announcement_ascent"
+            android:title="@string/workoutAscent" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

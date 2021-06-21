@@ -1,0 +1,4 @@
+- Hopefully fixed crash when importing GPX files on older Java versions
+- Fixed height and calorie bug
+
+- Updated French

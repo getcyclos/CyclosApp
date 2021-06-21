@@ -1,0 +1,7 @@
+- Custom workout types
+- Share workouts as pictures
+- UI/stability improvements
+- Announcement "system actions" can now be disabled
+- Updated translations
+
+please see the project repository on Codeberg for a more detailed list of changes

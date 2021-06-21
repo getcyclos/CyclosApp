@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+  ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  --><resources>
+    <string name="app_name">CyclosApp</string>
+    <string name="workout_add">Tilføj</string>
+    <string name="stop">Stop</string>
+    <string name="delete">Slet</string>
+    <string name="exporting">Eksporterer</string>
+    <string name="error">Fejl</string>
+    <string name="errorGpxExportFailed">GPX eksporteringen fejlede.</string>
+    <string name="errorExportFailed">Data eksporteringen fejlede.</string>
+    <string name="errorImportFailed">Dataimport er mislykkedes.</string>
+    <string name="shareFile">Del fil</string>
+    <string name="initialising">Initialiserer</string>
+    <string name="preferences">indstillinger</string>
+    <string name="workouts">Træning</string>
+    <string name="locationData">Lokations data</string>
+    <string name="converting">Konverterer</string>
+    <string name="finished">Færdig</string>
+    <string name="loadingFile">Loader fil</string>
+    <string name="chooseBackupFile">Vælg Backup-Fil</string>
+    <string name="importBackupMessage">ADVARSEL: Alle dine eksisterende data i denne app vil blive slettet. Hvis du ikke vil miste dem, så lav først en backup. Er du sikker på at du vil genoprette denne backup?</string>
+    <string name="restore">Genopret</string>
+    <string name="backup">Backup</string>
+    <string name="pref_ringtone_silent">Stille</string>
+    <string name="setPreferencesTitle">Sæt Indstillinger</string>
+    <string name="setPreferencesMessage">Du kan indstille dit enhedssystem og din vægt i indstillingerne.</string>
+    <string name="timeMinuteSingular">Minut</string>
+    <string name="timeMinutePlural">Minuter</string>
+    <string name="timeMinuteShort">min</string>
+    <string name="timeHourSingular">Time</string>
+    <string name="timeHourPlural">Timer</string>
+    <string name="timeHourShort">t</string>
+    <string name="timeSecondsShort">s</string>
+    <string name="and">og</string>
+    <string name="errorEnterValidNumber">Indtast et gyldigt nummer</string>
+    <string name="errorWorkoutAddFuture">Denne træning kan ikke være i fremtiden</string>
+    <string name="errorEnterValidDuration">Indtast en gydlig varighed</string>
+    <string name="announcementGPSStatus">GPS Status</string>
+    <string name="voiceAnnouncementsTitle">Stemme Anouncering</string>
+    <string name="pref_voice_announcements_summary">Konfigurer stemme prompterne der informerer om din træning</string>
+    <string name="pref_announcements_config_title">Announcering Trigger</string>
+    <string name="pref_announcements_config_summary">Vælg tid og distance imellem stemme announcering</string>
+    <string name="pref_announcements_content">Indhold af announcering</string>
+    <string name="gpsLost">GPS signal tabt</string>
+    <string name="gpsFound">GPS signal fundet</string>
+    <string name="workoutTime">Tid</string>
+    <string name="workoutDate">Dato</string>
+    <string name="workoutDuration">Varighed</string>
+    <string name="workoutPauseDuration">Pause Varighed</string>
+    <string name="workoutStartTime">Start Tid</string>
+    <string name="workoutEndTime">Slut Tid</string>
+    <string name="workoutDistance">Distance</string>
+    <string name="workoutPace">Tempo</string>
+    <string name="workoutRoute">Rute</string>
+    <string name="workoutSpeed">Hastighed</string>
+    <string name="workoutAvgSpeedShort">Gns. Hastighed</string>
+    <string name="workoutAvgSpeedLong">Gennemsnitlig Hastighed</string>
+    <string name="workoutTopSpeed">Top Hastighed</string>
+    <string name="workoutBurnedEnergy">Brændt Energi</string>
+    <string name="workoutTotalEnergy">Total Energi</string>
+    <string name="workoutEnergyConsumption">Energi Forbrug</string>
+    <string name="workoutEdited">Denne træning er blevet redigeret.</string>
+    <string name="uploading">Uploader</string>
+    <string name="enterVerificationCode">Indtast Verificeringskode</string>
+    <string name="authenticationFailed">Verificering fejlede.</string>
+    <string name="upload">Upload</string>
+    <string name="uploadSuccessful">Upload Færdiggjort</string>
+    <string name="uploadFailed">Upload Fejlede</string>
+    <string name="uploadFailedOsmNotAuthorized">Ikke godkendt, prøv igen</string>
+    <string name="workoutAscent">Stigning</string>
+    <string name="workoutDescent">Faldning</string>
+    <string name="height">Højde</string>
+    <string name="workoutTypeRunning">Løb</string>
+    <string name="workoutTypeWalking">Gå</string>
+    <string name="workoutTypeJogging">Jogge</string>
+    <string name="workoutTypeCycling">Cykle</string>
+    <string name="workoutTypeHiking">Hike</string>
+    <string name="workoutTypeSkateboarding">Skateboard</string>
+    <string name="workoutTypeInlineSkating">Rulleskøjter</string>
+    <string name="workoutTypeOther">Andet</string>
+    <string name="workoutTypeUnknown">Ukendt</string>
+    <string name="type">Type</string>
+    <string name="enterWorkout">Gå Til Træning</string>
+    <string name="importWorkout">Importer Træning</string>
+    <string name="setDuration">Indstil Varighed</string>
+    <string name="recordWorkout">Optag Træning</string>
+    <string name="noGpsTitle">GPS deaktiveret</string>
+    <string name="noGpsMessage">Venligst aktiver GPS for at tracke din træning.</string>
+    <string name="enable">Aktiver</string>
+    <string name="comment">Kommentar</string>
+    <string name="enterComment">Skriv Kommentar</string>
+    <string name="okay">okay</string>
+    <string name="stopRecordingQuestion">Stop Optagelse?</string>
+    <string name="stopRecordingQuestionMessage">Vil du virkelig gerne stoppe optagelsen?</string>
+    <!-- leave the underscore because "continue" is a java command -->
+    <string name="continue_">Fortsæt</string>
+    <string name="deleteWorkout">Slet Træning</string>
+    <string name="deleteWorkoutMessage">Vil du virkelig gerne slette denne træning?</string>
+    <string name="trackerRunning">Tracker er igang</string>
+    <string name="trackerRunningMessage">Din træning bliver optaget</string>
+    <string name="trackingInfo">Oplysninger Om Sporing</string>
+    <string name="trackingInfoDescription">Info om den kørende tracker</string>
+    <string name="cancel">Annuler</string>
+    <string name="exportAsGpxFile">Ekspoter som GPX-Fil</string>
+    <string name="pref_weight">Din Vægt</string>
+    <string name="pref_weight_summary">Din vægt er krævet for at udregne forbrændte kalorier</string>
+    <string name="pref_unit_system">Enhedssystem</string>
+    <string name="settings">Indstillinger</string>
+    <string name="exportData">Eksporter Data</string>
+    <string name="exportDataSummary">Dette laver en backup af alle træninger</string>
+    <string name="importBackup">Importer Data Backup</string>
+    <string name="importBackupSummary">Genopret fra en backup</string>
+    <string name="gps">GPS</string>
+    <string name="data">Data</string>
+    <string name="mapStyle">Kort Stil</string>
+    <string name="waiting_gps">Venter på GPS</string>
+    <string name="actionUploadToOSM">Upload til OSM</string>
+    <string name="cut">Klip de første/sidste 300 Meter</string>
+    <string name="trackVisibilityPref">Track Synlighed</string>
+    <string name="description">Beskrivelse</string>
+    <string name="ttsNotAvailable">TextToSpeech er ikke tilgængelig</string>
+    <string name="action_edit_comment">Rediger Kommentar</string>
+    <string name="pref_announcement_mode">Announceringstilstand</string>
+    <string name="save">Gem</string>
+    <string name="share">Del</string>
+    <string name="savingFailed">Gemning fejlede</string>
+    <string name="info">Info</string>
+    <string name="OpenStreetMapAttribution">© OpenStreetMap contributors</string>
+    <string name="theme">Tema</string>
+    <string name="hintRestart">Genstart venligst appen for at ændringerne træder i kraft</string>
+    <string name="noComment">Ingen kommentar</string>
+    <string name="start">Start</string>
+    <string name="cannotStart">Kan ikke starte</string>
+    <string name="add">Tilføj</string>
+    <string name="add_interval">Tilføj Interval</string>
+    <string name="manageIntervalSets">Arranger Interval Sæt</string>
+    <string name="manageIntervalsSummary">Rediger de interval sæts du ville kunne bruge under træning med stemme feedback.</string>
+    <string name="workoutRecording">Træningsoptagelse</string>
+    <string name="createIntervalSet">Opret Ny Interval Sæt</string>
+    <string name="create">Opret</string>
+    <string name="hintManageIntervalSets">Tilføj et interval sæt til brug i din træning.</string>
+    <string name="hintEditIntervalSet">Tilføj intervaller som vil blive sagt.</string>
+    <string name="interval_name">Navn:</string>
+    <string name="length_in_minutes">Varighed (minuter):</string>
+    <string name="enterName">Indtast et navn</string>
+    <string name="deleteIntervalSet">Slet Interval Sæt</string>
+    <string name="deleteIntervalSetMessage">Vil du slette dette interval sæt?</string>
+    <string name="selectIntervalSet">Vælg Interval Sæt</string>
+    <string name="intervalSetSelected">Interval Sæt valgt</string>
+    <string name="intervalsIncludePauseTitle">Inkluder Pause Tid i Interval Træning</string>
+    <string name="intervalsIncludePauseSummary">Hvis dette er aktiveret, vil intervallerne fortsætte selv om du har pauser i din træning.</string>
+    <string name="intervalTraining">Interval Træning</string>
+    <string name="intervalSet">Interval Sæt</string>
+    <string name="intervalSets">Interval Sæts</string>
+    <string name="currentSpeed">Nuværende Hastighed</string>
+    <string name="hintAddWorkout">Klik på plus ikoner for at optage eller tilgå træning.</string>
+    <string name="enterDescription">Indtast en beskrivelse</string>
+    <string name="avgSpeedInMotion">Gns. Hastighed (i bevægelse)</string>
+    <string name="avgSpeedTotalShort">Gns. Hastighed (Total)</string>
+    <string name="avgSpeedTotalLong">Gennemsnitlig Total Hastighed</string>
+    <string name="preferencesUserInterfaceTitle">Brugergrænseflade</string>
+    <string name="preferencesUserInterfaceSummary">Personaliser denne app</string>
+    <string name="preferencesRecordingTitle">Optagelse</string>
+    <string name="preferencesRecordingSummary">Arranger din træningsoptagelser</string>
+    <string name="preferencesBackupTitle">Database</string>
+    <string name="preferencesBackupSummary">Backup/Genopret dine træningsdata</string>
+    <string name="preferencesCategoryAppearance">Udseende</string>
+    <string name="preferenceDateFormat">Dato Format</string>
+    <string name="preferenceTimeFormat">Tids Format</string>
+    <string name="workoutDiscarded">Træning smidt væk</string>
+    <string name="timeSecondsSingular">Sekund</string>
+    <string name="timeSecondsPlural">Sekunder</string>
+    <string name="per">pr</string>
+    <string name="unitMilesSingular">Mil</string>
+    <string name="unitMilesPlural">Mil</string>
+    <string name="unitYardsSingular">Yard</string>
+    <string name="unitYardsPlural">Værft</string>
+    <string name="unitMilesPerHour">Mil i Timen</string>
+    <string name="unitMetersPlural">Meter</string>
+    <string name="unitMetersSingular">måleren</string>
+    <string name="unitKilometersPlural">Kilometer</string>
+    <string name="unitKilometersSingular">kilometer</string>
+    <string name="unitKilometersPerHour">Kilometer i timen</string>
+    <string name="unitMetersPerSecond">Meter i sekundet</string>
+    <string name="unitKcalLong">Kalorier</string>
+    <string name="unitKJoule">Kilojoule</string>
+    <string name="pref_energy_unit">Energi enhed</string>
+    <string name="manageAutoTimeoutSummary">Rediger intervallet for automatisk træningsstop</string>
+    <string name="intervalAutoTimeoutTraining">Auto Trænings Timeout</string>
+    <string name="pref_auto_timeout_title">Auto-Stop Tidshorisont</string>
+    <string name="currentTime">Nuværende Tid</string>
+    <string name="oClock">Klokken</string>
+    <string name="unlockPhoneStopWorkout">Venligst lås din telefon op for at stoppe optagelsen</string>
+    <string name="no_workouts_recorded_for_this_activity">Ingen træninger for denne aktivitet</string>
+    <string name="workout_statistics">Træningsstatestikker</string>
+    <string name="day">Dag</string>
+    <string name="week">Uge</string>
+    <string name="month">Måned</string>
+    <string name="year">År</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="avg">Gns</string>
+    <string name="sum">Sum</string>
+    <string name="workoutNumber">Antal af træninger</string>
+    <string name="statsFilter">Filter:</string>
+    <string name="help">Hjælp</string>
+    <string name="calendarWeekYear">Kalender Uge / År</string>
+    <string name="dayInMonth">Dag i Måneden</string>
+    <string name="singleWorkout">Enkelt Træning</string>
+    <string name="workoutStatsHelpText">Denne skærm viser historik for træningen. For at bruge det skal du først angive træningstypen ved at klikke på den. Indstil derefter de oplysninger, du vil vide om, og tidsrummet.
+\n
+\nF.eks. Hvis du vælger \"Uge\" som tidsperiode, bliver alle træningsprogrammer i hver uge flettet til et datapunkt, der enten beregner gennemsnittet eller summen af hver uge.</string>
+    <string name="dataSamples">Brudstykker</string>
+    <string name="replaceOrMergeMessage">Erstat eller kombiner database med backup fil?</string>
+    <string name="replace">Erstat</string>
+    <string name="merge">Kombiner</string>
+    <string name="workoutImported">Træning blev importeret med success</string>
+    <string name="announcementSuppressDuringCall">Forhindre ved opkald</string>
+    <string name="no_workouts_recorded">Ingen træninger optaget</string>
+    <string name="sections">Sektioner</string>
+    <string name="speedLastMinute">Gns. Hastighed (Sidste Minut)</string>
+    <string name="speedLastMinuteSpoken">Hastighed indenfor det sidste minut</string>
+    <string name="cannotFindWorkout">Kan ikke finde træning</string>
+    <string name="editWorkout">Rediger Træning</string>
+    <string-array name="pref_energy_units">
+        <item>kcal</item>
+        <item>Joule</item>
+    </string-array>
+    <string-array name="pref_announcement_mode">
+        <item>Altid</item>
+        <item>Kun i hovedtelefoner</item>
+    </string-array>
+    <string-array name="pref_theme_setting">
+        <item>Lys</item>
+        <item>Mørk</item>
+    </string-array>
+    <string-array name="pref_time_format">
+        <item>System Standard</item>
+        <item>12:08 PM</item>
+        <item>15:23</item>
+    </string-array>
+    <string-array name="pref_date_format">
+        <item>System Standard</item>
+        <item>2001-07-24</item>
+        <item>2001.07.24</item>
+        <item>2001/07/24</item>
+        <item>24-07-2001</item>
+        <item>24.07.2001</item>
+        <item>24/07/2001</item>
+        <item>07/24/2001</item>
+    </string-array>
+    <string name="sendEmail">Send e-mail</string>
+    <string name="importMultipleGpxFilesSummary">Importer mere end én GPX-fil fra filsystemet på én gang</string>
+    <string name="aboutVersion">Version</string>
+    <string name="importedWorkouts">Importeret %d træning</string>
+    <string name="importingFiles">Import af filer</string>
+    <string name="bulkActions">Bulk handlinger</string>
+    <string name="importMultipleMessageSelectFolder">Vælg en mappe, der indeholder alle de GPX filer, du gerne vil importere.</string>
+    <string name="importMultipleGpxFiles">Importer flere GPX filer</string>
+    <string name="recordingStateStopped">Stoppe</string>
+    <string name="recordingStatePaused">Pause</string>
+    <string name="recordingStateRunning">Køre</string>
+    <string name="recordingStateIdle">Tomgang</string>
+    <string name="speechConfigNoSpeech">Ingen Meddelelse</string>
+    <string name="actionGrant">Give</string>
+    <string name="recordingPermissionNotGrantedTitle">Tilladelser ikke givet</string>
+    <string name="unitFootSingular">Fod</string>
+    <string name="unitFootPlural">Fødder</string>
+    <string name="noWorkoutStarted">Ingen Træning Startede</string>
+    <string name="editDisplayedInformationHint">Så længe træningen ikke er startet, kan du redigere de viste værdier ved at klikke på et af de fire felter.</string>
+    <string name="editDisplayedInformation">Rediger viste oplysninger</string>
+    <string name="aboutPrivacyPolicy">Fortrolighedspolitik</string>
+    <string name="aboutHelpTranslating">Hjælp med at oversætte</string>
+    <string name="aboutUnlistedContributors">Tak til alle de unoterede bidragydere, der hjalp med at oversætte og udvide CyclosApp!</string>
+    <string name="aboutSourceCode">Vis kildekode</string>
+    <string name="aboutSendFeedback">Send feedback til udvikleren</string>
+    <string name="aboutContributors">Bidragyder</string>
+    <string name="aboutAuthor">Forfatter</string>
+    <string name="aboutChangelog">Changelog</string>
+    <string name="aboutLinks">Links</string>
+    <string name="aboutReportBug">Anmeld en fejl</string>
+    <string name="aboutOpenSourceLibraries">Open source-biblioteker</string>
+    <string name="aboutTitle">Om</string>
+    <string name="savedSuccessfully">Gemt</string>
+    <string name="trackerWaitingMessage">Venter på at starte træningen</string>
+    <string name="workoutTypeRowing">Roning</string>
+    <string name="inclination">Hældning</string>
+    <string name="nothingSelected">Intet valgt</string>
+    <string name="showIntervals">Vis intervaller</string>
+    <string name="connectHeartRateDevice">Tilslut puls enhed</string>
+    <string name="selectBluetoothDevice">Vælg Bluetooth-enhed</string>
+    <string name="workoutAvgHeartRate">Avg. puls</string>
+    <string name="workoutMaxHeartRate">Maks Puls</string>
+    <string name="workoutHeartRate">puls</string>
+    <string name="workoutStarted">Træning startede</string>
+    <string name="workoutStopped">Træning stoppet</string>
+    <string name="workoutResumed">Træning genoptaget</string>
+    <string name="workoutPaused">Træning sat på pause</string>
+    <string name="actionResume">Resumé</string>
+    <string name="actionPause">Midlertidigt</string>
+    <string name="autoPauseSummary">Automatisk pause og fortsætte træningen</string>
+    <string name="autoPauseTitle">Automatisk pause</string>
+    <string name="resumeWorkout">Genoptag Træning</string>
+    <string name="heartRateNotAvailable">Puls er i øjeblikket ikke tilgængelig.</string>
+    <string name="intervals">Interval</string>
+    <string name="announcementWorkoutActions">Workorkout handlinger (pause, genoptage, etc.)</string>
+    <string name="resumeWorkoutConfirmation">Vil du virkelig genoptage denne træning\? Dette vil også tilføje en pause fra det tidspunkt, hvor træningen blev stoppet.</string>
+    <string name="prefShowOnLockScreenSummary">Vis træningsoplysninger, selvom telefonen er låst.</string>
+    <string name="prefShowOnLockScreenTitle">Synlig på låseskærmen</string>
+    <string name="notimeout">Ingen Timeout</string>
+    <string name="workoutTypeEditMET">MET</string>
+    <string name="editWorkoutType">Rediger træningstype</string>
+    <string name="workoutTypeEditIcon">Ikon</string>
+    <string name="deleteWorkoutTypeConfirmation">Vil du virkelig slette denne træningstype\?</string>
+    <string name="deleteWorkoutType">Slet Træningstype</string>
+    <string name="actionSave">Spare</string>
+    <string name="customWorkoutTypesTitle">Tilpassede Træningstyper</string>
+    <string name="preferenceCategoryVoiceFeedback">Stemme feedback</string>
+    <string name="workoutTypeEditMETHint">En foranstaltning til energiforbrug</string>
+    <string name="workoutTypeEditMinDistanceHint">Mindste afstand mellem to GPS-prøver</string>
+    <string name="workoutTypeEditMinDistance">Prøve afstand</string>
+    <string name="workoutTypeEditNameError">Indtast venligst et navn</string>
+    <string name="workoutTypeEditName">Navn</string>
+    <string name="workoutTypeEditIdErrorUnique">Der er allerede en træningstype ved hjælp af dette ID</string>
+    <string name="workoutTypeEditIdErrorEmpty">Indtast venligst et ID</string>
+    <string name="workoutTypeEditIdErrorCharacters">Tilladte tegn: a–z, A–Z, 0–9, _, -</string>
+    <string name="workoutTypeEditId">ID</string>
+    <string name="hintManageWorkoutTypes">Klik på plus for at tilføje tilpassede træningstyper.</string>
+    <string name="workoutTypeAdd">Tilføje</string>
+</resources>

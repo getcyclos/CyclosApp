@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+  ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  --><resources>
+    <string name="app_name">CyclosApp</string>
+    <string name="workout_add">Ajouter</string>
+    <string name="stop">Arrêter</string>
+    <string name="delete">Supprimer</string>
+    <string name="exporting">Exportation</string>
+    <string name="error">Erreur</string>
+    <string name="errorGpxExportFailed">L\'export GPX a échoué.</string>
+    <string name="errorExportFailed">L\'export des données a échoué.</string>
+    <string name="errorImportFailed">L\'import des données a échoué.</string>
+    <string name="shareFile">Partager le fichier</string>
+    <string name="initialising">Initialisation</string>
+    <string name="preferences">Préférences</string>
+    <string name="workouts">Entraînements</string>
+    <string name="locationData">Données de localisation</string>
+    <string name="converting">Conversion</string>
+    <string name="finished">Terminé</string>
+    <string name="loadingFile">Chargement du fichier</string>
+    <string name="chooseBackupFile">Choisir le fichier de sauvegarde</string>
+    <string name="importBackupMessage">ATTENTION : Les données existantes de l\'application seront effacées. Pensez à faire une sauvegarde si vous ne voulez pas les perdre. Êtes-vous sûr·e de vouloir restaurer cette sauvegarde \?</string>
+    <string name="restore">Restaurer</string>
+    <string name="backup">Sauvegarder</string>
+    <string name="pref_ringtone_silent">Silencieux</string>
+    <string name="setPreferencesTitle">Définir les préférences</string>
+    <string name="setPreferencesMessage">Vous pouvez définir votre système d\'unités préféré et votre poids dans les paramètres.</string>
+    <string name="timeMinuteSingular">Minute</string>
+    <string name="timeMinutePlural">Minutes</string>
+    <string name="timeMinuteShort">min</string>
+    <string name="timeHourSingular">Heure</string>
+    <string name="timeHourPlural">Heures</string>
+    <string name="timeHourShort">h</string>
+    <string name="timeSecondsShort">s</string>
+    <string name="and">et</string>
+    <string name="errorEnterValidNumber">Merci d\'entrer un nombre valide</string>
+    <string name="errorWorkoutAddFuture">L\'entraînement ne peut pas avoir lieu dans le futur</string>
+    <string name="errorEnterValidDuration">Merci d\'entrer une durée valide</string>
+    <string name="announcementGPSStatus">Statut GPS</string>
+    <string name="voiceAnnouncementsTitle">Annonces vocales</string>
+    <string name="pref_voice_announcements_summary">Configurer les annonces vocales utilisées durant l\'entraînement</string>
+    <string name="pref_announcements_config_title">Déclenchement des annonces vocales</string>
+    <string name="pref_announcements_config_summary">Choisissez le temps et la distance entre les annonces vocales</string>
+    <string name="pref_announcements_content">Contenu des annonces vocales</string>
+    <string name="gpsLost">Signal GPS perdu</string>
+    <string name="gpsFound">Signal GPS trouvé</string>
+    <string name="workoutTime">Temps</string>
+    <string name="workoutDate">Date</string>
+    <string name="workoutDuration">Durée</string>
+    <string name="workoutPauseDuration">Durée de la pause</string>
+    <string name="workoutStartTime">Heure de début</string>
+    <string name="workoutEndTime">Heure de fin</string>
+    <string name="workoutDistance">Distance</string>
+    <string name="workoutPace">Rythme</string>
+    <string name="workoutRoute">Parcours</string>
+    <string name="workoutSpeed">Vitesse</string>
+    <string name="workoutAvgSpeedShort">Vitesse moy.</string>
+    <string name="workoutAvgSpeedLong">Vitesse moyenne</string>
+    <string name="workoutTopSpeed">Vitesse maximale</string>
+    <string name="workoutBurnedEnergy">Énergie consommée</string>
+    <string name="workoutTotalEnergy">Énergie totale</string>
+    <string name="workoutEnergyConsumption">Consommation d\'énergie</string>
+    <string name="workoutEdited">L\'entraînement a été édité.</string>
+    <string name="uploading">Téléversement</string>
+    <string name="enterVerificationCode">Entrez le code de vérification</string>
+    <string name="authenticationFailed">Erreur d\'authentification.</string>
+    <string name="upload">Téléverser</string>
+    <string name="uploadSuccessful">Téléversement réussi</string>
+    <string name="uploadFailed">Échec du téléversement</string>
+    <string name="uploadFailedOsmNotAuthorized">Non autorisé, essayez encore</string>
+    <string name="workoutAscent">Montée</string>
+    <string name="workoutDescent">Descente</string>
+    <string name="height">Altitude</string>
+    <string name="workoutTypeRunning">Course</string>
+    <string name="workoutTypeWalking">Marche</string>
+    <string name="workoutTypeJogging">Jogging</string>
+    <string name="workoutTypeCycling">Vélo</string>
+    <string name="workoutTypeHiking">Randonnée</string>
+    <string name="workoutTypeSkateboarding">Skateboard</string>
+    <string name="workoutTypeInlineSkating">Roller</string>
+    <string name="workoutTypeOther">Autre</string>
+    <string name="workoutTypeUnknown">Inconnu</string>
+    <string name="type">Type</string>
+    <string name="enterWorkout">Enregistrer un entraînement</string>
+    <string name="importWorkout">Importer un entraînement</string>
+    <string name="setDuration">Définir la durée</string>
+    <string name="recordWorkout">Commencer l\'entraînement</string>
+    <string name="noGpsTitle">GPS désactivé</string>
+    <string name="noGpsMessage">Veuillez activer le GPS pour géolocaliser votre entraînement.</string>
+    <string name="enable">Activer</string>
+    <string name="comment">Commentaire</string>
+    <string name="enterComment">Entrez un commentaire</string>
+    <string name="okay">Okay</string>
+    <string name="stopRecordingQuestion">Arrêter l\'enregistrement \?</string>
+    <string name="stopRecordingQuestionMessage">Voulez-vous vraiment arrêter l\'entraînement \?</string>
+    <!-- leave the underscore because "continue" is a java command -->
+    <string name="continue_">Continuer</string>
+    <string name="deleteWorkout">Supprimer l\'entraînement</string>
+    <string name="deleteWorkoutMessage">Voulez-vous vraiment supprimer l\'entraînement \?</string>
+    <string name="trackerRunning">Suivi en cours</string>
+    <string name="trackerRunningMessage">Enregistrement en cours</string>
+    <string name="trackingInfo">Infos de suivi</string>
+    <string name="trackingInfoDescription">Information à propos du fonctionnement du tracker</string>
+    <string name="cancel">Annuler</string>
+    <string name="exportAsGpxFile">Exporter comme fichier GPX</string>
+    <string name="pref_weight">Votre poids</string>
+    <string name="pref_weight_summary">Votre poids est nécessaire pour calculer le nombre de calories brûlées</string>
+    <string name="pref_unit_system">Système d\'unités préféré</string>
+    <string name="settings">Paramètres</string>
+    <string name="exportData">Exporter les données</string>
+    <string name="exportDataSummary">Effectue une sauvegarde de tous vos entraînements</string>
+    <string name="importBackup">Importer une sauvegarde</string>
+    <string name="importBackupSummary">Restaurer une sauvegarde</string>
+    <string name="gps">GPS</string>
+    <string name="data">Données</string>
+    <string name="mapStyle">Style de la carte</string>
+    <string name="waiting_gps">En attente du GPS</string>
+    <string name="actionUploadToOSM">Téléversement sur OSM</string>
+    <string name="cut">Enlever les premiers/derniers 300 mètres</string>
+    <string name="trackVisibilityPref">Visibilité de la piste</string>
+    <string name="description">Description</string>
+    <string name="ttsNotAvailable">TextToSpeech n\'est pas disponible </string>
+    <string name="action_edit_comment">Modifier le commentaire</string>
+    <string name="pref_announcement_mode">Mode d\'annonce</string>
+    <string name="save">Enregistrer</string>
+    <string name="share">Partager</string>
+    <string name="savingFailed">Échec de la sauvegarde</string>
+    <string name="info">Infos</string>
+    <string name="OpenStreetMapAttribution">© Contributeurs OpenStreetMap</string>
+    <string name="theme">Thème</string>
+    <string name="hintRestart">Redémarrer l\'application pour appliquer les modifications</string>
+    <string name="noComment">Pas de commentaire</string>
+    <string name="start">Démarrer</string>
+    <string name="cannotStart">Impossible de démarrer</string>
+    <string name="add">Ajouter</string>
+    <string name="add_interval">Ajouter un intervalle</string>
+    <string name="manageIntervalSets">Gérer les séries d\'intervalles</string>
+    <string name="manageIntervalsSummary">Modifier les séries d\'intervalles que vous pourrez utiliser pendant l\'entraînement à l\'aide du retour vocal.</string>
+    <string name="workoutRecording">Enregistrement de l\'entraînement</string>
+    <string name="createIntervalSet">Créer une nouvelle série d\'intervalles</string>
+    <string name="create">Créer</string>
+    <string name="hintManageIntervalSets">Ajouter une serie d\'intervalles pour l\'utiliser dans vos séances d\'entraînement.</string>
+    <string name="hintEditIntervalSet">Ajouter des intervalles qui seront prononcés.</string>
+    <string name="interval_name">Nom :</string>
+    <string name="length_in_minutes">Durée (minutes) :</string>
+    <string name="enterName">Entrez un nom</string>
+    <string name="deleteIntervalSet">Supprimer la série d\'intervalle</string>
+    <string name="deleteIntervalSetMessage">Voulez-vous supprimer la série d\'intervalles \?</string>
+    <string name="selectIntervalSet">Sélectionnez une série d\'intervalles</string>
+    <string name="intervalSetSelected">Séries d\'intervalles sélectionnées</string>
+    <string name="intervalsIncludePauseTitle">Inclure le temps de pause dans les entraînements à intervalles</string>
+    <string name="intervalsIncludePauseSummary">Si activé, les intervalles continueront même si vous faites des pauses dans votre séance d\'entraînement.</string>
+    <string name="intervalTraining">Entraînement à intervalles</string>
+    <string name="intervalSet">Série d\'intervalles</string>
+    <string name="intervalSets">Séries d\'intervalles</string>
+    <string name="currentSpeed">Vitesse actuelle</string>
+    <string name="hintAddWorkout">Cliquez sur l\'icône plus pour démarrer ou enregistrer une séance d\'entraînement.</string>
+    <string name="enterDescription">Entrez une description</string>
+    <string name="avgSpeedInMotion">Vitesse moy. (en Mouvement)</string>
+    <string name="avgSpeedTotalShort">Vitesse moy. (Total)</string>
+    <string name="avgSpeedTotalLong">Vitesse moyenne au total</string>
+    <string name="preferencesUserInterfaceTitle">Interface utilisateur</string>
+    <string name="preferencesUserInterfaceSummary">Personnaliser l\'application</string>
+    <string name="preferencesRecordingTitle">Enregistrement</string>
+    <string name="preferencesRecordingSummary">Gérer l\'enregistrement des entraînements</string>
+    <string name="preferencesBackupTitle">Stockage</string>
+    <string name="preferencesBackupSummary">Sauvegarder/Restaurer vos données d\'entraînements</string>
+    <string name="preferencesCategoryAppearance">Apparence</string>
+    <string name="preferenceDateFormat">Format de la date</string>
+    <string name="preferenceTimeFormat">Format de l\'heure</string>
+    <string name="workoutDiscarded">Entraînement annulé</string>
+    <string name="timeSecondsSingular">Seconde</string>
+    <string name="timeSecondsPlural">Secondes</string>
+    <string name="per">par</string>
+    <string name="unitMilesSingular">Mille</string>
+    <string name="unitMilesPlural">Milles</string>
+    <string name="unitYardsSingular">Yard</string>
+    <string name="unitYardsPlural">Yards</string>
+    <string name="unitMilesPerHour">Milles par Heure</string>
+    <string name="unitMetersPlural">Mètres</string>
+    <string name="unitMetersSingular">Mètre</string>
+    <string name="unitKilometersPlural">Kilomètres</string>
+    <string name="unitKilometersSingular">Kilomètre</string>
+    <string name="unitKilometersPerHour">Kilomètres par heure</string>
+    <string name="unitMetersPerSecond">Mètres par seconde</string>
+    <string name="unitKcalLong">Calories</string>
+    <string name="unitKJoule">Kilojoule</string>
+    <string name="pref_energy_unit">Unité énergétique</string>
+    <string name="manageAutoTimeoutSummary">Modifier l\'intervalle pour l\'arrêt automatique de l\'entraînement</string>
+    <string name="intervalAutoTimeoutTraining">Pause automatique d\'entraînements</string>
+    <string name="pref_auto_timeout_title">Durée de la pause automatique</string>
+    <string name="currentTime">Heure actuelle</string>
+    <!--<string name="oClock">o Clock</string>-->
+    <string name="unlockPhoneStopWorkout">Veuillez déverrouiller votre téléphone pour arrêter l\'enregistrement</string>
+    <string name="no_workouts_recorded_for_this_activity">Pas d\'entraînements pour cette activité</string>
+    <string name="workout_statistics">Statistiques d\'entraînement</string>
+    <string name="day">Jour</string>
+    <string name="week">Semaine</string>
+    <string name="month">Mois</string>
+    <string name="year">Année</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="avg">Moy</string>
+    <string name="sum">Som</string>
+    <string name="workoutNumber">Nombre d\'entraînements</string>
+    <string name="statsFilter">Filtre :</string>
+    <string name="help">Aide</string>
+    <string name="calendarWeekYear">Calendrier Semaine / Année</string>
+    <string name="dayInMonth">Jour du mois</string>
+    <string name="singleWorkout">Entraînement unique</string>
+    <string name="workoutStatsHelpText">Cet écran montre les statistiques historiques des séances d\'entraînement. Pour l\'utiliser, vous devez d\'abord spécifier le type d\'entraînement en cliquant sur celui-ci. Ensuite, définissez les informations que vous voulez connaître et la durée.
+\n
+\nPar exemple, si vous sélectionnez « Semaine » comme période de temps, tous les entraînements de chaque semaine seront fusionnés en un point de données calculant la moyenne ou la somme de chaque semaine.</string>
+    <string name="dataSamples">Échantillons</string>
+    <string name="replaceOrMergeMessage">Remplacer ou fusionner la base de données avec un fichier de sauvegarde ?</string>
+    <string name="replace">Remplacer</string>
+    <string name="merge">Fusionner</string>
+    <string name="workoutImported">Entraînement importé avec succès</string>
+    <string name="announcementSuppressDuringCall">Supprimer durant l\'appel</string>
+    <string name="no_workouts_recorded">Aucun entraînement enregistré</string>
+    <string name="sections">Sections</string>
+    <string-array name="pref_energy_units">
+        <item>kcal</item>
+        <item>Joule</item>
+    </string-array>
+    <string-array name="pref_announcement_mode">
+        <item>Toujours</item>
+        <item>Seulement avec des écouteurs</item>
+    </string-array>
+    <string-array name="pref_theme_setting">
+        <item>Clair</item>
+        <item>Sombre</item>
+    </string-array>
+    <string-array name="pref_unit_systems">
+        <item>Métrique</item>
+        <item>Métrique en m/s</item>
+        <item>Impériale</item>
+        <item>Impériale en mètres</item>
+        <item>US Customary</item>
+    </string-array>
+    <string-array name="pref_time_format">
+        <item>Valeur par défaut</item>
+        <item>12:08 PM</item>
+        <item>15:23</item>
+    </string-array>
+    <string-array name="pref_date_format">
+        <item>Valeur par défaut</item>
+        <item>2001-07-24</item>
+        <item>2001.07.24</item>
+        <item>2001/07/24</item>
+        <item>24-07-2001</item>
+        <item>24.07.2001</item>
+        <item>24/07/2001</item>
+        <item>07/24/2001</item>
+    </string-array>
+    <string-array name="osm_track_visibility">
+        <item>Identifiable</item>
+        <item>Traçable</item>
+        <item>Privé</item>
+    </string-array>
+    <string name="trackerWaitingMessage">En attente du début de la séance</string>
+    <string name="oClock">heures</string>
+    <string name="speedLastMinute">Vit. moy. (dernière minute)</string>
+    <string name="speedLastMinuteSpoken">Vitesse durant la dernière minute</string>
+    <string name="cannotFindWorkout">Impossible de trouver la séance</string>
+    <string name="editWorkout">Modifier la séance</string>
+    <string name="aboutTitle">À propos</string>
+    <string name="aboutVersion">Version</string>
+    <string name="aboutChangelog">Journal des changements</string>
+    <string name="aboutOpenSourceLibraries">Librairies Open source</string>
+    <string name="aboutReportBug">Signaler une erreur</string>
+    <string name="aboutLinks">Liens</string>
+    <string name="aboutAuthor">Auteur·e</string>
+    <string name="aboutContributors">Contributeur·ice·s</string>
+    <string name="aboutSendFeedback">Envoyer des remarques au développeur</string>
+    <string name="aboutSourceCode">Voir le code source</string>
+    <string name="sendEmail">Envoyer un courriel</string>
+    <string name="editDisplayedInformation">Modifier les informations affichées</string>
+    <string name="editDisplayedInformationHint">Tant que la séance n\'a pas commencé, vous pouvez modifier les valeurs affichées en cliquant sur un des quatre champs.</string>
+    <string name="noWorkoutStarted">Aucune séance commencée</string>
+    <string name="unitFootPlural">Pieds</string>
+    <string name="unitFootSingular">Pied</string>
+    <string name="recordingPermissionNotGrantedTitle">Permissions non accordées</string>
+    <string name="recordingStateStopped">Arrêtés</string>
+    <string name="recordingStatePaused">Mis en pause</string>
+    <string name="recordingStateRunning">Fonctionnement</string>
+    <string name="recordingStateIdle">Inactif</string>
+    <string name="speechConfigNoSpeech">Pas d\'annonce</string>
+    <string name="aboutHelpTranslating">Aide à la traduction</string>
+    <string name="aboutUnlistedContributors">Merci à tous les contributeurs non listés qui ont aidé à la traduction et à l\'extension de CyclosApp !</string>
+    <string name="savedSuccessfully">Sauvegardé</string>
+    <string name="workoutTypeRowing">Aviron</string>
+    <string name="importedWorkouts">Pourcentage %d entraînement importé</string>
+    <string name="importingFiles">Importation de fichiers</string>
+    <string name="bulkActions">Actions de masse</string>
+    <string name="importMultipleGpxFilesSummary">Importer plus d\'un fichier GPX à la fois à partir du système de fichiers</string>
+    <string name="importMultipleMessageSelectFolder">Veuillez sélectionner un dossier contenant tous les fichiers GPX que vous souhaitez importer.</string>
+    <string name="importMultipleGpxFiles">Importer plusieurs fichiers GPX</string>
+    <string name="actionGrant">Autoriser</string>
+    <string name="aboutPrivacyPolicy">Politique de confidentialité</string>
+    <string name="inclination">Inclinaison</string>
+    <string name="nothingSelected">Rien de sélectionné</string>
+    <string name="showIntervals">Afficher les intervalles</string>
+    <string name="connectHeartRateDevice">Connecter un appareil de mesure du rythme cardiaque</string>
+    <string name="selectBluetoothDevice">Sélectionner un appareil Bluetooth</string>
+    <string name="workoutAvgHeartRate">Moyenne. Fréquence cardiaque</string>
+    <string name="workoutMaxHeartRate">Fréquence cardiaque maximale</string>
+    <string name="workoutHeartRate">Rythme cardiaque</string>
+    <string name="resumeWorkout">Reprendre L\'Entraînement</string>
+    <string name="heartRateNotAvailable">La fréquence cardiaque n\'est actuellement pas disponible.</string>
+    <string name="intervals">Intervalles</string>
+    <string name="announcementWorkoutActions">Actions d\'entraînement (pause, reprise, etc.)</string>
+    <string name="workoutStarted">Entraînement commencé</string>
+    <string name="workoutStopped">Entraînement arrêté</string>
+    <string name="workoutResumed">Reprise de la séance d\'entraînement</string>
+    <string name="workoutPaused">Entraînement en pause</string>
+    <string name="actionResume">Reprendre</string>
+    <string name="actionPause">Pause</string>
+    <string name="autoPauseSummary">Automatiquement pause et continuer les séances d\'entraînement</string>
+    <string name="autoPauseTitle">Pause automatique</string>
+    <string name="notimeout">Aucune pause</string>
+    <string name="resumeWorkoutConfirmation">Voulez-vous vraiment reprendre cette séance d\'entraînement  \? Cela ajoutera également une pause à partir du moment où l\'entraînement a été arrêté.</string>
+    <string name="prefShowOnLockScreenSummary">Afficher les informations d\'entraînement, même si le téléphone est verrouillé.</string>
+    <string name="prefShowOnLockScreenTitle">Visible sur l\'écran de verrouillage</string>
+    <string name="editWorkoutType">Modifier l\'entraînement</string>
+    <string name="workoutTypeEditIcon">Icône</string>
+    <string name="deleteWorkoutTypeConfirmation">Voulez-vous vraiment supprimer cet entraînement personnalisé \?</string>
+    <string name="deleteWorkoutType">Suppression entraînement</string>
+    <string name="actionSave">Enregistrer</string>
+    <string name="customWorkoutTypesTitle">Types d\'entraînement personnalisés</string>
+    <string name="preferenceCategoryVoiceFeedback">Commentaires vocaux</string>
+    <string name="workoutTypeEditMETHint">Quantité d\'énergie consommée</string>
+    <string name="workoutTypeEditMET">Energie dépensée</string>
+    <string name="workoutTypeEditMinDistanceHint">Distance minimale entre deux positions GPS</string>
+    <string name="workoutTypeEditMinDistance">Distance minimum</string>
+    <string name="workoutTypeEditId">Identifiant</string>
+    <string name="workoutTypeAdd">Ajouter</string>
+    <string name="workoutTypeEditNameError">Veuillez saisir un titre</string>
+    <string name="workoutTypeEditName">Titre</string>
+    <string name="hintManageWorkoutTypes">Cliquez sur + pour ajouter des types d\'entraînement personnalisés.</string>
+    <string name="workoutTypeEditIdErrorUnique">Il existe déjà un type d\'entraînement utilisant cet identifiant</string>
+    <string name="workoutTypeEditIdErrorEmpty">Veuillez saisir un identifiant</string>
+    <string name="workoutTypeEditIdErrorCharacters">Caractères autorisés : a – z, A – Z, 0–9, _, -</string>
+    <string name="actionImportMultiple">Imports multiples</string>
+    <string name="actionImport">Importer</string>
+    <string name="importWorkoutMultipleQuestion">Voulez-vous importer un ou plusieurs fichiers GPX \?</string>
+</resources>

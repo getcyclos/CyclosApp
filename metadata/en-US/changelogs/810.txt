@@ -1,0 +1,8 @@
+- Add rowing
+- Target Android 10
+
+- Fix GPX import/export on older Android devices
+- Fix pace voice announcement
+- Minor layout improvements
+
+- Added initial Russian

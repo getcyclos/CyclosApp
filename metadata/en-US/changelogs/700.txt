@@ -1,0 +1,6 @@
+- Workout Statistics
+- Import GPX files
+- Split workout into sections/laps
+- Merge backups into current state
+
+please see the project repository on Codeberg for more changes

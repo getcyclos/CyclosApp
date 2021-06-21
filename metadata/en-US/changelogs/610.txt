@@ -1,0 +1,7 @@
+
+- Workout Timeout Setting
+- Current Time as TTS information
+- Exported files contain start date and comment
+- much better tracking stability
+
+please see the project repository on Codeberg for more changes

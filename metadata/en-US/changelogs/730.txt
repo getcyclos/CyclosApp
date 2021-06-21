@@ -1,0 +1,4 @@
+- Workout statistics: show summed values as bars
+- Workout statistics: open workout summary when clicking on a single workout
+- Avg. Speed within last minute as voice information
+- Fix auto pause not working, also causing much noise in speed and elevation diagram

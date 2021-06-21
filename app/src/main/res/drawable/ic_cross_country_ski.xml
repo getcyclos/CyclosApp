@@ -1,0 +1,30 @@
+<!--
+  ~ Copyright (c) 2021 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+  ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#FFFFFF"
+    android:alpha="0.8">
+  <path
+      android:pathData="m18.5341,4.5301c-0.0051,1.1 -0.9092,1.9958 -2.0092,1.9908 -1.1,-0.0051 -1.9958,-0.9092 -1.9908,-2.0092 0.0051,-1.1 0.9092,-1.9958 2.0092,-1.9908 1.1,0.0051 1.9958,0.9092 1.9908,2.0092zM15.7951,19.6719 L16.7074,19.7173c1.0013,0.0112 1.1119,0.0683 2.2661,-0.2189 0.4946,-0.1231 1.1092,-0.3993 1.5458,-1.0268l1.2426,0.9832c-0.6984,0.9281 -1.2822,1.3384 -1.9389,1.4796 -1.7522,0.3766 -2.166,0.383 -3.562,0.3534l-14.1219,-0.0251 0.0403,-1.6641 6.4988,-0.0268 2.4316,-5.4458 -3.5528,-3.7464C6.6713,9.4354 6.8984,7.9065 8.0214,7.2616l3.4892,-1.9939c1.1029,-0.6349 2.5204,-0.0884 2.9048,1.1234l0.325,1.0815c0.4334,1.422 1.4681,2.5768 2.8155,3.153l0.5274,-1.5976 1.4279,0.4666 -1.1359,3.4448C15.9272,12.5282 13.9049,10.8488 13.0153,8.5947l-2.5367,1.4383 3.014,3.4739 -2.7312,6.1034 3.4458,0.0427 2.2534,-5.6924v0,0c0.4592,0.1821 0.9386,0.3143 1.4381,0.4166z"
+      android:fillColor="@android:color/white" />
+</vector>

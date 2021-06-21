@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+  ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="locationData">Lokasi</string>
+    <string name="actionUploadToOSM">Muatnaik ke</string>
+    <string name="waiting_gps">Menunggu</string>
+    <string name="mapStyle">Stail</string>
+    <string name="importBackup">Import salinan</string>
+    <string name="exportDataSummary">Membuat salinan semua senaman</string>
+    <string name="exportData">Eksport</string>
+    <string name="pref_unit_system">Sistem unit pilihan</string>
+    <string name="exportAsGpxFile">Eksport sebagai fail</string>
+    <string name="trackingInfoDescription">Maklumat mengenai pengesan</string>
+    <string name="trackingInfo">Maklumat engesanan</string>
+    <string name="trackerWaitingMessage">Menunggu senaman</string>
+    <string name="trackerRunningMessage">Senaman anda sedang direkod</string>
+    <string name="trackerRunning">Pengesan sedang</string>
+    <string name="deleteWorkoutMessage">Adakah anda ingin memadam senaman berikut\?</string>
+    <string name="deleteWorkout">Padam</string>
+    <string name="noGpsMessage">Sila hidupkan GPS untuk mengesan senaman anda.</string>
+    <string name="action_edit_comment">Sunting</string>
+    <string name="pref_weight_summary">Berat badan anda diperlukan untuk mengira kalori yang dibakar</string>
+    <string name="pref_weight">Berat</string>
+    <string name="speechConfigNoSpeech">Tiada</string>
+    <string name="setPreferencesMessage">Anda boleh menetapkan sistem unit pilihan dan berat anda dalam tetapan.</string>
+    <string name="recordingPermissionNotGrantedTitle">Kebenaran tidak</string>
+    <string name="noWorkoutStarted">Tiada senaman dimulakan</string>
+    <string name="editDisplayedInformationHint">Selagi senaman tidak bermula, anda boleh sunting nilai paparan dengan mengklik salah satu dari empat ruangan.</string>
+    <string name="editDisplayedInformation">Sunting paparan</string>
+    <string name="errorEnterValidNumber">Masukan nombor</string>
+    <string name="importBackupMessage">AMARAN: Semua data sedia ada anda dalam aplikasi ini akan dikosongkan. Jika anda tidak ingin kehilangan data tersebut, sila buat salinan lain terlebih dahulu. Adakah anda ingin mengembalikan salinan ini\?</string>
+    <string name="shareFile">Kongsi</string>
+    <string name="errorGpxExportFailed">Eksport GPX gagal.</string>
+    <string name="errorExportFailed">Eksport data gagal.</string>
+    <string name="errorImportFailed">Import data gagal.</string>
+    <string name="announcementGPSStatus">Status</string>
+    <string name="chooseBackupFile">Pilih Salinan</string>
+    <string name="loadingFile">Memuat</string>
+    <string name="editWorkoutType">Sunting jenis</string>
+</resources>

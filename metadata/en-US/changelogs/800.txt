@@ -1,0 +1,10 @@
+- Edit Workouts: type, distance, duration
+- About Screen
+- Added US Customary unit system with feet
+- Pace as a displayed information and voice announcement
+
+- Remove ThunderForest maps due to licensing
+- Bug fixes / stability and UI/UX improvements
+- Added Danish, Updated Dutch
+
+please see the project repository on Codeberg for more changes

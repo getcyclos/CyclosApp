@@ -1,0 +1,6 @@
+CyclosApp er en mobil app til at logge og se din træning. Om du løber, cykler eller hiker, vil CyclosApp vise dig de vigtigste informationer, med detaljerede charts og statistikker. Det er Open Source og helt reklame-fri.
+
+Features:
+* Track træning. Vælg typen af træning du vil tracke og så bare start med f.eks. at løbe, cykle eller hike. Du kan se generel information lige under kortet på tracking skærmen.
+* Se din træning. Se generelle informationer som, dato, tid, varighed, distance og hastighed. Se din rute på et kort. Find ud af dit niveau udfra hastighedsdiagrammet.
+* Open Source. Der er hverken reklamer eller tracking, og kildekoden er åben og under GPLv3 licens.

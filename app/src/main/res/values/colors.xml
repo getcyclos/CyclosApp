@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2020 Gabriel Estrada <dev@getcyclos.com>
+  ~
+  ~ This file is part of CyclosApp
+  ~
+  ~ CyclosApp is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     CyclosApp is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <color name="colorPrimary">#0062ff</color>
+    <color name="colorPrimaryDark">#0000b8</color>
+
+    <color name="colorPrimaryRunning">#43A047</color>
+    <color name="colorPrimaryDarkRunning">#2E7D32</color>
+
+    <color name="colorPrimaryBicycling">#209ECF</color>
+    <color name="colorPrimaryDarkBicycling">#1D3346</color>
+
+    <!-- For dark mode the normal cycling colors would be too dark -->
+    <color name="colorPrimaryBicyclingLighter">#2F4F77</color>
+    <color name="colorPrimaryDarkBicyclingLighter">#3F77A8</color>
+
+    <color name="colorPrimarySkating">#D6CC00</color>
+    <color name="colorPrimaryDarkSkating">#9E9600</color>
+
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorAccentDark">#2E7D32</color>
+
+    <color name="colorPrimaryHiking">#009688</color>
+    <color name="colorPrimaryDarkHiking">#007267</color>
+
+    <color name="colorPrimaryRowing">#0078B8</color>
+    <color name="colorPrimaryDarkRowing">#00527E</color>
+
+    <color name="textLighterBlack">#E6000000</color>
+    <color name="textDarkerWhite">#E6FFFFFF</color>
+    <color name="textColorLight">#C8414141</color>
+
+    <color name="aggregatedDiagramMax">#F44336</color>
+    <color name="aggregatedDiagramAvg">#00BCD4</color>
+    <color name="aggregatedDiagramMin">#4CAF50</color>
+
+    <color name="heartRateStateUnavailable">#8E8E8E</color>
+    <color name="heartRateStateConnecting">#00BCD4</color>
+    <color name="heartRateStateAvailable">#4CAF50</color>
+    <color name="heartRateStateFailed">#F44336</color>
+
+    <color name="diagramHeight">#0078B8</color>
+    <color name="diagramSpeed">#FB8C00</color>
+    <color name="diagramHeartRate">#F44336</color>
+    <color name="diagramInclination">#009688</color>
+
+    <color name="lineHighlight">#229a9a9a</color>
+</resources>
