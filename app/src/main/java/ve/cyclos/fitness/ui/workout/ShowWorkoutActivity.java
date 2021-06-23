@@ -77,10 +77,7 @@ public class ShowWorkoutActivity extends WorkoutActivity implements DialogUtils.
 
         initAfterContent();
 
-        commentView = addText("", true);
-        commentView.setOnClickListener(v -> openEditCommentDialog());
-        updateCommentText();
-
+        /* Muestra el Mapa  */
         if (hasSamples()) {
             addTitle(getString(R.string.workoutRoute));
 
@@ -90,8 +87,11 @@ public class ShowWorkoutActivity extends WorkoutActivity implements DialogUtils.
             mapRoot.setOnClickListener(v -> startFullscreenMapActivity());
 
         }
-
-                
+        /* Muestra comentarios  */
+        commentView = addText("", true);
+        commentView.setOnClickListener(v -> openEditCommentDialog());
+        updateCommentText();
+        /* Bloque de datos: Tiempo, Feche, Duración, Inicio y fin de la Actividad, Distancia, etc  */
         addTitle(getString(R.string.workoutTime));
         addKeyValue(getString(R.string.workoutDate), getDate());
         addKeyValue(getString(R.string.workoutDuration), distanceUnitUtils.getHourMinuteSecondTime(workout.duration),
@@ -100,10 +100,7 @@ public class ShowWorkoutActivity extends WorkoutActivity implements DialogUtils.
                 getString(R.string.workoutEndTime), Instance.getInstance(this).userDateTimeUtils.formatTime(new Date(workout.end)));
 
         addKeyValue(getString(R.string.workoutDistance), distanceUnitUtils.getDistance(workout.length), getString(R.string.workoutPace), distanceUnitUtils.getPace(workout.avgPace));
-
-
-
-
+        /* Bloque de datos de Velocidad  */
         addTitle(getString(R.string.workoutSpeed));
 
         if (hasSamples()) {
@@ -116,7 +113,7 @@ public class ShowWorkoutActivity extends WorkoutActivity implements DialogUtils.
         } else {
             addKeyValue(getString(R.string.workoutAvgSpeedShort), distanceUnitUtils.getSpeed(workout.avgSpeed));
         }
-
+        /* Bloque de datos de los latidos del Corazón  */
         if (workout.hasHeartRateData()) {
             addTitle(getString(R.string.workoutHeartRate));
             addKeyValue(getString(R.string.workoutAvgHeartRate), workout.avgHeartRate + " bpm",
@@ -124,7 +121,7 @@ public class ShowWorkoutActivity extends WorkoutActivity implements DialogUtils.
 
             addDiagram(new HeartRateConverter(this), ShowWorkoutMapDiagramActivity.DIAGRAM_TYPE_HEART_RATE);
         }
-
+        /* Bloque de datos las calorías  */
         addTitle(getString(R.string.workoutBurnedEnergy));
         addKeyValue(getString(R.string.workoutTotalEnergy), energyUnitUtils.getEnergy(workout.calorie),
                 getString(R.string.workoutEnergyConsumption), energyUnitUtils.getRelativeEnergy((double) workout.calorie / ((double) workout.duration / 1000 / 60)));
